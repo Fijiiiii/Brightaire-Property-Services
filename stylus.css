@@ -2049,9 +2049,6 @@ opacity: 1;
 /*XS*/
 @media (max-width: 600px) {
     /*nav-bar*/
-.doneL{
-  display: none;
-}
 .logo2{
   top: 28px;
 left: 151px;
