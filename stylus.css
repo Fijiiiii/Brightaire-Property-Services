@@ -1765,7 +1765,7 @@ opacity: 1;
 
 /*S*/
 @media (max-width: 768px) {
-  /*nav-bar*/
+
   .DD{
     font: normal normal normal 14px/57px Poppins !important;
   letter-spacing: 0px;
@@ -2044,5 +2044,90 @@ opacity: 1;
   height: 100%;
   max-height: 619px;
   padding-bottom: 10rem;
+}
+}
+/*XS*/
+@media (max-width: 600px) {
+    /*nav-bar*/
+.doneL{
+  display: none;
+}
+.logo2{
+  top: 28px;
+left: 151px;
+width: 100%;
+max-width: 250px;
+height: 60px;
+background: 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.logo{
+  display: none;
+  }
+.try2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+left: 128px;
+width: 100%;
+max-width: 276px;
+height: 100%;
+max-height: 130px;
+background: #02050B 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.Carpet{
+  top: 300px;
+  left: 128px;
+  width: 420px;
+  height: 277px;
+  text-align: left;
+  font: normal normal bold 39px/63px Poppins;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  }
+  /*2nd*/
+.Vac{
+  height: 100%;
+  width: 100%;
+  width: 349px;
+height: 494px;
+background: transparent 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.call{
+  position: relative;
+  z-index: 3;
+  margin-top: 400px;
+  right: 200px;
+  width: 308px;
+height: 117px;
+/* UI Properties */
+background: #EFED70 0% 0% no-repeat padding-box;
+box-shadow: 0px 20px 50px #126CC629;
+border-radius: 5px;
+opacity: 1;
+}
+.call_now{
+  margin-left: 1em;
+  width: 112px;
+height: 32px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 23px/57px Poppins;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.call_num{
+  margin-left: 1em;
+  width: 234px;
+  height: 52px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 30px/57px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
 }
 }
