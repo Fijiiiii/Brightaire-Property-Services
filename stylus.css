@@ -2166,3 +2166,213 @@ color: #00333E;
 opacity: 1;
 }
 }
+/*XXS*/
+@media (max-width: 375px) {
+  /*nav-bar*/
+.logo2{
+top: 28px;
+left: 151px;
+width: 100%;
+max-width: 250px;
+height: 60px;
+background: 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.logo{
+display: none;
+}
+.try2{
+display: flex;
+justify-content: center;
+align-items: center;
+left: 128px;
+width: 100%;
+max-width: 276px;
+height: 100%;
+max-height: 130px;
+background: #02050B 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.Sunshine{
+top: 263px;
+left: 128px;
+width: 368px;
+height: 37px;
+text-align: left;
+font: normal normal bold 22px/17px Poppins;
+letter-spacing: 0px;
+color: #2FB1CF;
+opacity: 1;
+}
+.Carpet{
+top: 300px;
+left: 128px;
+width: 320px;
+height: 277px;
+text-align: left;
+font: normal normal bold 30px/63px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.head_contact{
+  width: 272px;
+height: 69px;
+border: 2px solid #EFED70;
+border-radius: 4px;
+opacity: 1;
+text-align: left;
+font: normal normal normal 21px/57px Poppins;
+letter-spacing: 0px;
+color: #EFED70 !important;
+}
+.card{
+  width: 100%;
+min-width: 350px;
+height: 538px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 7px;
+opacity: 1;
+}
+.get{
+  margin-left: 10px;
+  width: 100%;
+min-width: 301px;
+height: 47px;
+text-align: left;
+font: normal normal bold 30px/57px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+.getp{
+  margin-left: 10px;
+width: 266px;
+height: 17px;
+text-align: left;
+font: normal normal normal 12px/16px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.form{
+  margin: 10px;
+  margin-top: 60px;
+}
+.Name{
+  width: 100%;
+min-width: 110px;
+height: 39px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 3px #00000012;
+border: 1px solid #CAD2D8;
+border-radius: 5px;
+opacity: 1;
+margin-top: 1em;
+}
+.mail{
+  width: 135px;
+height: 39px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 3px #00000012;
+border: 1px solid #CAD2D8;
+border-radius: 5px;
+opacity: 1;
+}
+.message{
+  width: 100%;
+  min-width: 110px;
+height: 80px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 3px #00000012;
+border: 1px solid #CAD2D8;
+border-radius: 5px;
+opacity: 1;
+}
+.submit{
+  width: 100%;
+  min-width: 280px;
+height: 51px;
+/* UI Properties */
+background: #FF3400 0% 0% no-repeat padding-box;
+border-radius: 5px;
+opacity: 1;
+border: none;
+font: normal normal bold 15px/17px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+/*2nd*/
+.Vac{
+height: 100%;
+width: 100%;
+width: 349px;
+height: 494px;
+background: transparent 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.call{
+position: relative;
+z-index: 3;
+margin-top: 400px;
+right: 200px;
+width: 308px;
+height: 117px;
+/* UI Properties */
+background: #EFED70 0% 0% no-repeat padding-box;
+box-shadow: 0px 20px 50px #126CC629;
+border-radius: 5px;
+opacity: 1;
+}
+.call_now{
+margin-left: 1em;
+width: 112px;
+height: 32px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 23px/57px Poppins;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.call_num{
+margin-left: 1em;
+width: 234px;
+height: 52px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 30px/57px Poppins;
+letter-spacing: 0px;
+color: #000000;
+}
+.welcome{
+width: 178px;
+height: 40px;
+text-align: left;
+font: normal normal bold 22px/47px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.welcome1{
+width: 452px;
+height: 63px;
+text-align: left;
+font: normal normal bold 35px/47px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.welcome2{
+width: 100%;
+min-width: 352px;
+height: 100%;
+min-height: 311px;
+text-align: left;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+}
+
