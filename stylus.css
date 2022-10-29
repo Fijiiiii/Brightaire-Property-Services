@@ -2201,8 +2201,9 @@ opacity: 1;
   }
   .sixth_head2{
     width: 100%;
-    max-width: 431px;
-  height: 100px;
+    max-width: 331px;
+    height: 100%;
+  max-height: 100px;
   text-align: left;
   font: normal normal bold 30px/47px Poppins;
   letter-spacing: 0px;
@@ -2210,7 +2211,7 @@ opacity: 1;
   }
   .sixth_par{
     width: 100%;
-    max-width: 252px;
+    max-width: 300px;
     height: 100%;
   min-height: 167px;
   /* UI Properties */
