@@ -399,6 +399,7 @@ opacity: 1;
   height: 3rem;
   width: 3rem;
 }
+/*Fifth*/
 .fifth_head{
   width: 211px;
 height: 39px;
@@ -2184,6 +2185,44 @@ opacity: 1;
   color: #00333E;
   opacity: 1;
   }
+/*Fifth*/
+.fifth_head{
+  margin: 1rem;
+  width: 211px;
+height: 39px;
+text-align: left;
+font: normal normal bold 21px/33px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.fifth_head2{
+  margin: 1rem;
+  width: 100%;
+  max-width: 310px;
+height: 63px;
+text-align: left;
+font: normal normal bold 45px/47px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.fifth_par{
+  margin: 1rem;
+  width: 100%;
+  max-width: 380px;
+  height: 100%;
+  min-height: 143px;
+text-align: left;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+.van{
+  width: 100%;
+  min-width: 350px;
+  height: 100%;
+  min-height:225px;
+}
   /*Sixth*/
   .bg_sixth{
     height: 100%;
@@ -2192,6 +2231,7 @@ opacity: 1;
   opacity: 1;
   }
   .sixth_head{
+    margin-left: 1rem;
     width: 178px;
   height: 40px;
   text-align: left;
@@ -2200,6 +2240,7 @@ opacity: 1;
   color: #00333E;
   }
   .sixth_head2{
+    margin-left: 1rem;
     width: 100%;
     max-width: 331px;
     height: 100%;
@@ -2210,11 +2251,11 @@ opacity: 1;
   color: #00333E;
   }
   .sixth_par{
+    margin-left: 1rem;
     width: 100%;
-    max-width: 300px;
+    max-width: 380px;
     height: 100%;
   min-height: 167px;
-  /* UI Properties */
   text-align: left;
   font: normal normal normal 16px/24px Poppins;
   letter-spacing: 0px;
@@ -2222,6 +2263,7 @@ opacity: 1;
   opacity: 1;
   }
   .run{
+    margin-left: 1rem;
     width: 100%;
     max-width: 266px;
     height: 100%;
