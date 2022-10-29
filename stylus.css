@@ -1989,12 +1989,12 @@ opacity: 1;
   align-items: center;
 }
 .MOTM{
-  width: 555px;
-  height: 63px;
-  text-align: left;
-  font: normal normal bold 45px/47px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
+  width: 210px;
+height: 72px;
+text-align: center;
+font: normal normal bold 28px/33px Poppins;
+letter-spacing: 0px;
+color: #00333E;
 }
 .ab_workers{
   width: 170px;
