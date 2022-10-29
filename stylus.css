@@ -2402,7 +2402,8 @@ height: 39px;
 margin-top: 1em;
 }
 .cont_mail{
-  width: 235px;
+  width: 100%;
+  max-width: 235px;
 height: 39px;
 /* UI Properties */
 background: #FFFFFF 0% 0% no-repeat padding-box;
