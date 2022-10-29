@@ -2165,6 +2165,25 @@ letter-spacing: 0px;
 color: #00333E;
 opacity: 1;
 }
+/*Fourth*/
+.Fourth_head{
+width: 305px;
+height: 63px;
+text-align: center;
+font: normal normal bold 45px/47px Poppins;
+letter-spacing: 0px;
+color: #000000;
+}
+.Fourth_par{
+width: 1044px;
+height: 100%;
+min-height: 143px;
+text-align: center;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
 }
 /*XXS*/
 @media (max-width: 375px) {
@@ -2373,6 +2392,25 @@ max-width: 352px;
 height: 100%;
 min-height: 311px;
 text-align: left;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+/*Fourth*/
+.Fourth_head{
+width: 305px;
+height: 63px;
+text-align: center;
+font: normal normal bold 45px/47px Poppins;
+letter-spacing: 0px;
+color: #000000;
+}
+.Fourth_par{
+width: 1044px;
+height: 100%;
+min-height: 143px;
+text-align: center;
 font: normal normal normal 16px/24px Poppins;
 letter-spacing: 0px;
 color: #00333E;
