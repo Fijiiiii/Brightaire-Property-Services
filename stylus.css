@@ -2321,7 +2321,8 @@ position: relative;
 z-index: 3;
 margin-top: 400px;
 right: 200px;
-width: 220px;
+width: 100%;
+max-width: 220px;
 height: 100px;
 /* UI Properties */
 background: #EFED70 0% 0% no-repeat padding-box;
