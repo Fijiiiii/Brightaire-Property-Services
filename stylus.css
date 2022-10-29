@@ -2538,7 +2538,8 @@ letter-spacing: 0px;
 color: #00333E;
 }
 .welcome1{
-width: 452px;
+  width: 100%;
+max-width: 452px;
 height: 63px;
 text-align: left;
 font: normal normal bold 35px/47px Poppins;
@@ -2569,7 +2570,7 @@ color: #000000;
 width: 1044px;
 height: 100%;
 min-height: 143px;
-text-align: center;
+text-align: left;
 font: normal normal normal 16px/24px Poppins;
 letter-spacing: 0px;
 color: #00333E;
