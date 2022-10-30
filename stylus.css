@@ -621,20 +621,176 @@ opacity: 1;
 }
 
 /****************************************************<S E R V I C E S>*********************************************************/
+.servs_head{
+  width: 600px;
+height: 151px;
+  text-align: left;
+  font: normal normal bold 59px/63px Poppins;
+  letter-spacing: 0px;
+  color: white !important;
+  opacity: 1;
+  margin-left: 7rem;
+}
+.servi_up_buts{
+  width: 100%;
+  min-width: 50px;
+  max-width: 120px;
+height: 20px;
+text-align: left;
+font: normal normal normal 14px/25px Poppins;
+letter-spacing: 0px;
+color: #057690;
+}
+.servi_up_arr{
+  width: 100%;
+  min-width: 20px;
+  max-width: 50px;
+height: 20px;
+text-align: left;
+font: normal normal normal 14px/25px Poppins;
+letter-spacing: 0px;
+color: #057690;
+}
 .serv_bg1{
   height: 100%;
   min-height: 30vh;
   max-height: 100vh;
 }
 .serv_head{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   width: 100%;
   min-width: 1024px;
   max-width: 1200px;
-height: 23px;
+  height: 100%;
+ min-height: 50px;
 text-align: center;
 font: normal normal normal 16px/25px Poppins;
 letter-spacing: 0px;
 color: #00333E;
+}
+.serv_buts{
+  margin-bottom: 5rem;
+}
+.serv_meds{
+  width: 10rem;
+  height: 8rem;
+}
+.serve_icon{
+  width: 50px;
+height: 50px;
+border-radius: 50%;
+border: none;
+background-color: #EFED70;
+}
+.serv_icon_label{
+  width: 140px;
+height: 47px;
+text-align: center;
+font: normal normal bold 18px/22px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.serv_remove{
+  width: 665px;
+height: 182px;
+text-align: left;
+font: normal normal bold 33px/42px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.serv_benefits{
+  width: 326px;
+height: 23px;
+text-align: left;
+font: normal normal bold 16px/32px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.serv_bullets{
+  width: 643px;
+height: 25px;
+text-align: left;
+font: normal normal normal 16px/32px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #2FB1CF;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+/*2nd*/
+.serv_bg2{
+  height: 100%;
+  min-height: 230vh;
+  max-height: 300vh;
+}
+.serv_ensure{
+  margin-top: 2rem;
+  width: 581px;
+height: 120px;
+text-align: left;
+font: normal normal normal 29px/36px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.serv_get{
+  width: 677px;
+height: 120px;
+text-align: left;
+font: normal normal bold 33px/42px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.serv_get_par{
+  width: 627px;
+height: 100px;
+text-align: left;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+}
+.serv_get2{
+  width: 677px;
+height: 50px;
+text-align: left;
+font: normal normal bold 33px/42px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.serv_get_par2{
+  width: 627px;
+height: 120px;
+text-align: left;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+}
+.serv_get_par3{
+  width: 627px;
+height: 20px;
+text-align: left;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+}
+.serv_get_par4{
+  width: 627px;
+height: 200px;
+text-align: left;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+}
+.serv_img{
+  width: 100%;
+  min-width: none;
+  max-width: 350px;
+height: 225px;
 }
 /****************************************************<A B O U T>*********************************************************/
 .ab_head{
