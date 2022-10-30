@@ -2677,7 +2677,7 @@ opacity: 1;
 /*4th*/
 .ab_bg_fourth{
   height: 100%;
-  min-height: 130vh;
+  min-height: 120vh;
   max-height: 200vh;
 
   display: flex;
