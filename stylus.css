@@ -3284,6 +3284,7 @@ max-width:320px;
 max-width:600px;
   height: 100%;
   min-height: 100vh;
+  max-height: 150vh;
       margin-bottom: 1rem;
       margin-left: 0px !important;
     }
@@ -4274,6 +4275,7 @@ max-width:320px;
 max-width:600px;
 height: 100%;
 min-height: 100vh;
+max-height: 150vh;
     margin-bottom: 1rem;
     margin-left: 0px !important;
   }
