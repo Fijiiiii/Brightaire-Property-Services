@@ -30,7 +30,6 @@ height: 130px;
 background: #02050B 0% 0% no-repeat padding-box;
 opacity: 1;
 }
-
 .upper_nav{
   background-color: #03060C;
   height: 57px;
@@ -91,7 +90,7 @@ margin-top: -10px !important;
 .DM:hover{
   color: #EFED70 !important;
 }
-/*Home*/
+/****************************************************<H O M E>*********************************************************/
 .bg { 
   top: 150px;
   left: 0px;
@@ -253,7 +252,6 @@ opacity: 1;
   letter-spacing: 0px;
   color: #000000;
 }
-
 .welcome{
   width: 178px;
 height: 40px;
@@ -329,7 +327,6 @@ opacity: 1;
   background-color: #24A0ED;
   margin-left: 11rem;
 }
-
 /*Qualities*/
 .third_title{
   width: 168px;
@@ -381,8 +378,6 @@ box-shadow: 0px 3px 6px #00000029;
 border-radius: 5px;
 opacity: 0.92;
 }
-.carousel .carousel-indicators button {background-color: rgb(117, 83, 83);}
-.carousel .carousel-indicators button.active {background-color: blue;}
 .circ_corn{
   width: 153px;
 height: 153px;
@@ -575,9 +570,10 @@ opacity: 1;
   position: relative;
   background-position: center;
 }
+.carousel .carousel-indicators button {background-color: rgb(117, 83, 83);}
+.carousel .carousel-indicators button.active {background-color: blue;}
 .carousel .carousel-indicators li {background-color: rgb(117, 83, 83);}
 .carousel .carousel-indicators li.active {background-color: blue;}
-
 /*last*/
 .almost{
   background: #EFED70 0% 0% no-repeat padding-box;
@@ -1160,7 +1156,486 @@ text-transform: uppercase;
   min-width:769px;
   max-width:1023px;
   */
+/****************************************************<H O M E>*********************************************************/
+.bg { 
+  top: 150px;
+  left: 0px;
+  background: url(Img_Home_Page/Head.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 1;
+  height: 100%;
+  min-height: 639px;
+}
+.Sunshine{
+top: 263px;
+left: 128px;
+width: 368px;
+height: 37px;
+text-align: left;
+font: normal normal bold 27px/17px Poppins;
+letter-spacing: 0px;
+color: #2FB1CF;
+opacity: 1;
+}
+.Carpet{
+top: 300px;
+left: 128px;
+width: 670px;
+height: 277px;
+text-align: left;
+font: normal normal bold 59px/63px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.head_contact{
+  width: 272px;
+height: 69px;
+border: 2px solid #EFED70;
+border-radius: 4px;
+opacity: 1;
+text-align: left;
+font: normal normal normal 21px/57px Poppins;
+letter-spacing: 0px;
+color: #EFED70 !important;
 
+}
+.card{
+width: 350px;
+height: 538px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 7px;
+opacity: 1;
+}
+.get{
+  margin-left: 10px;
+width: 301px;
+height: 47px;
+text-align: left;
+font: normal normal bold 33px/57px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+.getp{
+  margin-left: 10px;
+width: 266px;
+height: 17px;
+text-align: left;
+font: normal normal normal 12px/16px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.form{
+  margin: 10px;
+  margin-top: 60px;
+}
+.Name{
+  /* Layout Properties */
+width: 310px;
+height: 39px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 3px #00000012;
+border: 1px solid #CAD2D8;
+border-radius: 5px;
+opacity: 1;
+margin-top: 1em;
+}
+.mail{
+  width: 150px;
+height: 39px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 3px #00000012;
+border: 1px solid #CAD2D8;
+border-radius: 5px;
+opacity: 1;
+}
+.message{
+  width: 310px;
+height: 80px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 3px #00000012;
+border: 1px solid #CAD2D8;
+border-radius: 5px;
+opacity: 1;
+}
+.submit{
+  width: 310px;
+height: 51px;
+/* UI Properties */
+background: #FF3400 0% 0% no-repeat padding-box;
+border-radius: 5px;
+opacity: 1;
+border: none;
+font: normal normal bold 15px/17px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+/*2nd*/
+.Vac{
+  width: 449px;
+height: 694px;
+background: transparent 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.call{
+  position: relative;
+  z-index: 3;
+  margin-top: 400px;
+  right: 200px;
+  width: 308px;
+height: 117px;
+/* UI Properties */
+background: #EFED70 0% 0% no-repeat padding-box;
+box-shadow: 0px 20px 50px #126CC629;
+border-radius: 5px;
+opacity: 1;
+}
+.call_now{
+  margin-left: 1em;
+  width: 112px;
+height: 32px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 23px/57px Poppins;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.call_num{
+  margin-left: 1em;
+  width: 234px;
+  height: 52px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 30px/57px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.welcome{
+  width: 178px;
+height: 40px;
+text-align: left;
+font: normal normal bold 29px/47px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.welcome1{
+  width: 452px;
+height: 63px;
+text-align: left;
+font: normal normal bold 45px/47px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.welcome2{
+  width: 452px;
+height: 311px;
+text-align: left;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+/*Third*/
+.bg3{
+  height: 100%;
+  min-height: 1506px;
+background: #B9D7E1 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.thirdhead{
+  width: 657px;
+  height: 63px;
+  text-align: left;
+  font: normal normal bold 45px/47px Poppins;
+  letter-spacing: 0px;
+  color: #00333E;
+}
+.thirdP{
+  width: 554px;
+height: 164px;
+text-align: left;
+font: normal normal bold 29px/31px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+.thirdP2{
+  width: 476px;
+height: 191px;
+text-align: left;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+/*cards*/
+.circ_arr{
+  padding-top: 5px !important;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: #24A0ED;
+  margin-left: 16rem;
+}
+.circ_arr2{
+  padding-top: 5px !important;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: #24A0ED;
+  margin-left: 11rem;
+}
+/*Qualities*/
+.third_title{
+  width: 168px;
+  height: 47px;
+  text-align: left;
+  font: normal normal bold 18px/22px Poppins;
+  letter-spacing: 0px;
+  color: #00333E;
+  opacity: 1;
+}
+.third_par{
+  width: 182px;
+height: 65px;
+text-align: left;
+font: normal normal normal 12px/16px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+/*Fourth*/
+.bg4{
+  height: 100%;
+  min-height: 807px;
+background: #ECFBFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.Fourth_head{
+width: 305px;
+height: 63px;
+text-align: center;
+font: normal normal bold 45px/47px Poppins;
+letter-spacing: 0px;
+color: #000000;
+}
+.Fourth_par{
+width: 1044px;
+height: 143px;
+text-align: center;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+.Carousel_card{
+  width: 350px;
+height: 370px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 5px;
+opacity: 0.92;
+}
+.circ_corn{
+  width: 153px;
+height: 153px;
+background: #EFED70;
+  border-radius: 0% 0% 100% 0%;
+}
+.Car_title{
+  width: 108px;
+height: 47px;
+text-align: left;
+font: normal normal bold 18px/22px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+.Car_par{
+  width: 284px;
+height: 119px;
+text-align: left;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+.Car_par2{
+  margin-top: -1rem;
+  width: 284px;
+height: 119px;
+text-align: left;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+.img_icon{
+  height: 3rem;
+  width: 3rem;
+}
+/*Fifth*/
+.fifth_head{
+  width: 211px;
+height: 39px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 21px/33px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.fifth_head2{
+  width: 310px;
+height: 63px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 45px/47px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.fifth_par{
+  width: 286px;
+height: 287px;
+text-align: left;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+.van{
+  width: 100%;
+  min-width: 350px;
+  height: 100%;
+  min-height:225px;
+}
+/*Sixth*/
+.bg_sixth{
+  height: 100%;
+  min-height: 619px;
+background: #F0FAFC 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.sixth_head{
+  width: 178px;
+height: 40px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 29px/47px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.sixth_head2{
+  width: 431px;
+height: 100px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 45px/47px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+}
+.sixth_par{
+  width: 452px;
+height: 167px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+.run{
+  width: 100%;
+  max-width: 1366px;
+  height: 100%;
+  max-height: 619px;
+  padding-bottom: 10rem;
+}
+/*seventh*/
+.bg_seven{
+  height: 619px;
+background: #D9F6FF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.bg_pic { 
+  top: 150px;
+  left: 0px;
+  background: url(Img_Home_Page/Group\ 123.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 1;
+  height: 100%;
+  min-height: 620px;
+}
+.seventh_head{
+  display: flex;
+  justify-content: end;
+  align-items:flex-end;
+  width: 253px;
+height: 99px;
+margin-left: 16rem;
+margin-bottom: 9px;
+font: normal normal bold 55px/22px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.seventh_par{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 521px;
+height: 368px;
+text-align: left;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+background-color: white;
+}
+.bars{
+  margin-top: 150px;
+  width: 58px;
+  height: auto;
+font: normal normal normal 200px/24px Poppins;
+color: #00333E;
+}
+.par_car{
+  width: 406px;
+height: 143px;
+text-align: left;
+font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+color: #00333E;
+opacity: 1;
+}
+.carousel-item{
+  height: 100%;
+  max-height: 35rem;
+  color: #00333E;
+  position: relative;
+  background-position: center;
+}
+.carousel-items{
+  height: 100%;
+  max-height: 10rem;
+  color: #00333E;
+  position: relative;
+  background-position: center;
+}
   /****************************************************<S E R V I C E S>*********************************************************/
 .servs_head{
   width:100%;
