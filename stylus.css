@@ -2298,12 +2298,12 @@ letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
 }
-  /****************************************************<S E R V I C E S>*********************************************************/
+/****************************************************<S E R V I C E S>*********************************************************/
   .servs_head{
     width:100%;
     min-width:769px;
     max-width:1023px;
-  height: 151px;
+    height: 151px;
     text-align: left;
     font: normal normal bold 59px/63px Poppins;
     letter-spacing: 0px;
@@ -2315,21 +2315,21 @@ opacity: 1;
     width: 100%;
     min-width: 50px;
     max-width: 120px;
-  height: 20px;
-  text-align: left;
-  font: normal normal normal 14px/25px Poppins;
-  letter-spacing: 0px;
-  color: #057690;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 14px/25px Poppins;
+    letter-spacing: 0px;
+    color: #057690;
   }
   .servi_up_arr{
     width: 100%;
     min-width: 20px;
     max-width: 50px;
-  height: 20px;
-  text-align: left;
-  font: normal normal normal 14px/25px Poppins;
-  letter-spacing: 0px;
-  color: #057690;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 14px/25px Poppins;
+    letter-spacing: 0px;
+    color: #057690;
   }
   .serv_bg1{
     width:100%;
@@ -2346,9 +2346,9 @@ opacity: 1;
     min-width:769px;
     max-width:1023px;
     height: 100%;
-   min-height: 50px;
-  text-align: center;
-  font: normal normal normal 16px/25px Poppins;
+    min-height: 50px;
+    text-align: center;
+    font: normal normal normal 16px/25px Poppins;
   letter-spacing: 0px;
   color: #00333E;
   }
@@ -2366,38 +2366,38 @@ opacity: 1;
   }
   .serve_icon{
     width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: none;
-  background-color: #EFED70;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #EFED70;
   }
   .serv_icon_label{
     width:100%;
     min-width:20px;
     max-width:80px;
-  height: 47px;
-  text-align: center;
-  font: normal normal bold 18px/22px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
+    height: 47px;
+    text-align: center;
+    font: normal normal bold 18px/22px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
   }
   .serv_remove{
     width:100%;
     min-width:365px;
     max-width:665px;
-  height: 182px;
-  text-align: left;
-  font: normal normal bold 33px/42px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
+    height: 182px;
+    text-align: left;
+    font: normal normal bold 33px/42px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
   }
   .serv_benefits{
     width: 326px;
-  height: 23px;
-  text-align: left;
-  font: normal normal bold 16px/32px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
+    height: 23px;
+    text-align: left;
+    font: normal normal bold 16px/32px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
   }
   .bulls{
     width:100%;
@@ -2411,12 +2411,12 @@ opacity: 1;
     width:100%;
     min-width:100px;
     max-width:643px;
-  height: 30px;
-  text-align: left;
-  font: normal normal normal 15px/30px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
-  opacity: 1;
+    height: 30px;
+    text-align: left;
+    font: normal normal normal 15px/30px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+    opacity: 1;
   }
   .bulls ul {
     list-style: none;
@@ -2438,73 +2438,73 @@ opacity: 1;
   .serv_ensure{
     margin-top: 2rem;
     width: 581px;
-  height: 120px;
-  text-align: left;
-  font: normal normal normal 29px/36px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
+    height: 120px;
+    text-align: left;
+    font: normal normal normal 29px/36px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
   }
   .serv_get{
     width:100%;
     min-width:300px;
     max-width:677px;
-  height: 120px;
-  text-align: left;
-  font: normal normal bold 33px/42px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
+    height: 120px;
+    text-align: left;
+    font: normal normal bold 33px/42px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
   }
   .serv_get_par{
     width:100%;
     min-width:300px;
     max-width:627px;
-  height: 100px;
-  text-align: left;
-  font: normal normal normal 16px/24px Poppins;
-  letter-spacing: 0px;
+    height: 100px;
+    text-align: left;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
   }
   .serv_get2{
     width:100%;
     min-width:300px;
     max-width:627px;
-  height: 50px;
-  text-align: left;
-  font: normal normal bold 33px/42px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
+    height: 50px;
+    text-align: left;
+    font: normal normal bold 33px/42px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
   }
   .serv_get_par2{
     width:100%;
     min-width:300px;
     max-width:627px;
-  height: 120px;
-  text-align: left;
-  font: normal normal normal 16px/24px Poppins;
-  letter-spacing: 0px;
+    height: 120px;
+    text-align: left;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
   }
   .serv_get_par3{
     width:100%;
     min-width:300px;
     max-width:627px;
-  height: 20px;
-  text-align: left;
-  font: normal normal normal 16px/24px Poppins;
-  letter-spacing: 0px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
   }
   .serv_get_par4{
     width:100%;
     min-width:300px;
     max-width:627px;
-  height: 200px;
-  text-align: left;
-  font: normal normal normal 16px/24px Poppins;
-  letter-spacing: 0px;
+    height: 200px;
+    text-align: left;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
   }
   .serv_img{
     width: 100%;
     min-width: none;
     max-width: 350px;
-  height: 225px;
+    height: 225px;
   }
   
 /****************************************************<C O N T A C T>*********************************************************/
