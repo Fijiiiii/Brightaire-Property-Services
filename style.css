@@ -3,6 +3,9 @@ body{
   overflow-x: hidden;
 }
 /*nav-bar*/
+.display_425{
+  display: none;
+}
 .doneL{
   display: none;
 }
@@ -5555,47 +5558,44 @@ header{
   margin-top: 5rem;
   margin-left: 0px !important;
   width: 380px;
-height: 320px;
-background: #000000 0% 0% no-repeat padding-box;
-opacity: 1;
+  height: 320px;
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 .cont_one{
   width: 251px;
-height: 49px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 16px/24px Poppins;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
+  height: 49px;
+  text-align: left;
+  font: normal normal normal 16px/24px Poppins;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
 }
 .cont_two{
   width: 150px;
-height: 29px;
-/* UI Properties */
-text-align: left;
-font: normal normal 600 21px/25px Poppins;
-letter-spacing: 0px;
-color: #FFFFFF;
+  height: 29px;
+  text-align: left;
+  font: normal normal 600 21px/25px Poppins;
+  letter-spacing: 0px;
+  color: #FFFFFF;
 }
 .cont_three{
   width: 202px;
-height: 23px;
-text-align: left;
-font: normal normal normal 16px/25px Poppins;
-letter-spacing: 0px;
-color: #EFED70;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #EFED70;
 }
 .cont_four{
   width: 80px;
-height: 20px;
-/* UI Properties */
-text-align: left;
-text-decoration: underline;
-font: normal normal normal 14px/25px Poppins;
-letter-spacing: 0px;
-color: #EFED70;
-text-transform: uppercase;
+  height: 20px;
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal normal 14px/25px Poppins;
+  letter-spacing: 0px;
+  color: #EFED70;
+  text-transform: uppercase;
 }
 .cont_all{
   display: flex;
@@ -5614,6 +5614,13 @@ text-transform: uppercase;
     margin-left: 0rem;
   }
   /*1st*/
+  /*display*/
+  .display_425{
+    display: flex;
+  }
+  .display_no425{
+    display: none;
+  }
   /*ORDER*/
   .order0{
     order: 0;
@@ -5676,8 +5683,6 @@ text-transform: uppercase;
     width: 100%;
     min-width: 100px;
     max-width: 1210px;
-    height: 100%;
-    min-height: 1800px;
     background: #ECFBFF 0% 0% no-repeat padding-box;
     opacity: 1;
   }
@@ -5686,16 +5691,18 @@ text-transform: uppercase;
     min-width: 100px;
     max-width: 1210px;
     height: 100%;
-    max-height: 1000px;
+    max-height: 900px;
     background: #ECFBFF 0% 0% no-repeat padding-box;
     opacity: 1;
   }
   .ab_two_par{
-    margin-top: -15rem;
+    margin-left: 1rem;
     width: 100%;
     min-width: 100px;
-    max-width: 526px;
-    height: 887px;
+    max-width: 370px;
+    height: 100%;
+    min-height: 100px;
+    max-height: 1100px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
@@ -6567,9 +6574,6 @@ opacity: 1;
     width: 100%;
     min-width: 100px;
     max-width: 1210px;
-    height: 100%;
-    min-height: 100px;
-    min-height: 1700px;
     background: #ECFBFF 0% 0% no-repeat padding-box;
     opacity: 1;
   }
@@ -6583,11 +6587,13 @@ opacity: 1;
     opacity: 1;
   }
   .ab_two_par{
-    margin-top: -50rem;
+    margin-left: 1rem;
     width: 100%;
     min-width: 100px;
-    max-width: 526px;
-    height: 887px;
+    max-width: 300px;
+    height: 100%;
+    min-height: 100px;
+    max-height: 1500px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
