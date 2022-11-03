@@ -1011,7 +1011,7 @@ opacity: 1;
 }
 /****************************************************<A B O U T>*********************************************************/
 .ab_head{
-  width: 784px;
+  width: 684px;
   height: 151px;
   text-align: left;
   font: normal normal bold 59px/63px Poppins;
@@ -2498,10 +2498,10 @@ opacity: 1;
   }
   /****************************************************<A B O U T>*********************************************************/
   .ab_head{
-    width: 784px;
+    width: 484px;
     height: 151px;
     text-align: left;
-    font: normal normal bold 59px/63px Poppins;
+    font: normal normal bold 45px/60px Poppins;
     letter-spacing: 0px;
     color: white !important;
     opacity: 1;
@@ -2517,7 +2517,7 @@ opacity: 1;
   }
   .ab_par{
     width: 100%;
-    maxwidth: 472px;
+    max-width: 472px;
     height: 23px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
@@ -3101,10 +3101,10 @@ opacity: 1;
 }
   /****************************************************<A B O U T>*********************************************************/
   .ab_head{
-    width: 784px;
+    width: 484px;
     height: 151px;
     text-align: left;
-    font: normal normal bold 59px/63px Poppins;
+    font: normal normal bold 45px/60px Poppins;
     letter-spacing: 0px;
     color: white !important;
     opacity: 1;
@@ -3120,7 +3120,7 @@ opacity: 1;
   }
   .ab_par{
     width: 100%;
-    maxwidth: 472px;
+    max-width: 472px;
     height: 23px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
@@ -4342,14 +4342,14 @@ text-transform: uppercase;
 }
   /****************************************************<A B O U T>*********************************************************/
   .ab_head{
-    width: 784px;
-    height: 151px;
+    width: 484px;
+    height: 120px;
     text-align: left;
-    font: normal normal bold 59px/63px Poppins;
+    font: normal normal bold 45px/60px Poppins;
     letter-spacing: 0px;
     color: white !important;
     opacity: 1;
-    margin-left: 7rem;
+    margin-left: 3rem;
   }
   /*1st*/
   /*ORDER*/
@@ -5517,40 +5517,39 @@ header{
 }
 .cont_mail{
   width: 250px;
-height: 40px;
-background: #FFFFFF 0% 0% no-repeat padding-box;
-box-shadow: 0px 2px 3px #00000012;
-border: 1px solid #CAD2D8;
-border-radius: 5px;
-opacity: 1;
-margin-bottom: 1rem;
+  height: 40px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 3px #00000012;
+  border: 1px solid #CAD2D8;
+  border-radius: 5px;
+  opacity: 1;
+  margin-bottom: 1rem;
 }
 .cont_message{
   width: 100%;
   min-width: 100px;
   max-width: 245px;
-height: 80px;
-background: #FFFFFF 0% 0% no-repeat padding-box;
-box-shadow: 0px 2px 3px #00000012;
-border: 1px solid #CAD2D8;
-border-radius: 5px;
-opacity: 1;
-margin-bottom: 1rem;
+  height: 80px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 3px #00000012;
+  border: 1px solid #CAD2D8;
+  border-radius: 5px;
+  opacity: 1;
+  margin-bottom: 1rem;
 }
 .cont_submit{
   width: 100%;
   min-width: 100px;
   max-width: 245px;
   height: 69px;
-  /* UI Properties */
   background: #FF3400 0% 0% no-repeat padding-box;
   border-radius: 5px;
   opacity: 1;
-border: none;
-font: normal normal bold 15px/17px Poppins;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
+  border: none;
+  font: normal normal bold 15px/17px Poppins;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
 }
 .cont_deets{
   margin-top: 5rem;
@@ -5605,14 +5604,14 @@ text-transform: uppercase;
 }
   /****************************************************<A B O U T>*********************************************************/
   .ab_head{
-    width: 784px;
-    height: 151px;
+    width: 484px;
+    height: 120px;
     text-align: left;
-    font: normal normal bold 59px/63px Poppins;
+    font: normal normal bold 40px/55px Poppins;
     letter-spacing: 0px;
     color: white !important;
     opacity: 1;
-    margin-left: 7rem;
+    margin-left: 0rem;
   }
   /*1st*/
   /*ORDER*/
@@ -5669,12 +5668,17 @@ text-transform: uppercase;
     max-height: 130px;
   }
   /*2nd*/
+  .ab_height{
+    height: 100%;
+    max-height: 300px;
+  }
   .ab_sblue_bg{
     width: 100%;
     min-width: 100px;
     max-width: 1210px;
     height: 100%;
-    min-height: 1800px;
+    min-height: 100px;
+    min-height: 1600px;
     background: #ECFBFF 0% 0% no-repeat padding-box;
     opacity: 1;
   }
@@ -5688,6 +5692,7 @@ text-transform: uppercase;
     opacity: 1;
   }
   .ab_two_par{
+    margin-top: -15rem;
     width: 100%;
     min-width: 100px;
     max-width: 526px;
@@ -5699,7 +5704,6 @@ text-transform: uppercase;
     opacity: 1;
   }
   .ab_two_par2{
-    padding-top: 2rem;
     width: 100%;
     min-width: 100px;
     max-width: 426px;
@@ -5731,10 +5735,10 @@ text-transform: uppercase;
   .ab_label{
     position: relative;
     z-index: 2;
-    bottom: 5rem;
-    left: 12rem;
-    width: 444px;
-    height: 117px;
+    bottom: 3rem;
+    left: 10rem;
+    width: 220px;
+    height: 60px;
     background: #EFED70 0% 0% no-repeat padding-box;
     box-shadow: 0px 20px 50px #126CC629;
     border-radius: 5px;
@@ -5743,10 +5747,10 @@ text-transform: uppercase;
   .ab_label2{
     position: relative;
     z-index: 2;
-    top: 15rem;
-    right: 27rem;
-    width: 444px;
-    height: 117px;
+    top: 10rem;
+    right: 12rem;
+    width: 220px;
+    height: 60px;
     background: #EFED70 0% 0% no-repeat padding-box;
     box-shadow: 0px 20px 50px #126CC629;
     border-radius: 5px;
@@ -5754,17 +5758,17 @@ text-transform: uppercase;
   }
   .ab_owner{
     width: 350px;
-    height: 32px;
+    height: 8px;
     text-align: left;
-    font: normal normal normal 23px/57px Poppins;
+    font: normal normal normal 10px/25px Poppins;
     letter-spacing: 0px;
     color: #000000;
   }
   .ab_ownert{
     width: 421px;
-    height: 52px;
+    height: 20px;
     text-align: left;
-    font: normal normal bold 37px/57px Poppins;
+    font: normal normal bold 17px/26px Poppins;
     letter-spacing: 0px;
     color: #000000;
   }
@@ -6489,5 +6493,255 @@ opacity: 1;
   .serv_last_bg99{
     display: flex;
     flex-direction: column;
+  }
+  /****************************************************<A B O U T>*********************************************************/
+  .ab_head{
+    width: 384px;
+    height: 120px;
+    text-align: left;
+    font: normal normal bold 35px/45px Poppins;
+    letter-spacing: 0px;
+    color: white !important;
+    opacity: 1;
+    margin-left: 0rem;
+  }
+  /*1st*/
+  /*ORDER*/
+  .order0{
+    order: 0;
+  }
+  .order1{
+    order: 1;
+  }
+  .ab_bg{
+    height: 100%;
+    min-height: 739px;
+  }
+  .ab_marg_top{
+    margin-top: 10rem;
+  }
+  .ab_par_just{
+    display: flex;
+    justify-content: center;
+  }
+  .ab_par{
+    width: 100%;
+    min-width: 100px;
+    max-width: 572px;
+    height: 100%;
+    max-height: 600px;
+    text-align: left;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+  }
+  .ab_image1{
+    width: 100%;
+    height: 100%;
+    max-width: 160px;
+    max-height: 200px;
+  }
+  .ab_image2{
+    width: 100%;
+    height: 100%;
+    max-width: 230px;
+    max-height: 240px;
+  }
+  .ab_image3{
+    width: 100%;
+    height: 100%;
+    max-width: 230px;
+    max-height: 260px;
+  }
+  .ab_image4{
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 130px;
+  }
+  /*2nd*/
+  .ab_height{
+    height: 100%;
+    max-height: 300px;
+  }
+  .ab_sblue_bg{
+    width: 100%;
+    min-width: 100px;
+    max-width: 1210px;
+    height: 100%;
+    min-height: 100px;
+    min-height: 1700px;
+    background: #ECFBFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .ab_sblue_bg2{
+    width: 100%;
+    min-width: 100px;
+    max-width: 1210px;
+    height: 100%;
+    max-height: 1000px;
+    background: #ECFBFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .ab_two_par{
+    margin-top: -50rem;
+    width: 100%;
+    min-width: 100px;
+    max-width: 526px;
+    height: 887px;
+    text-align: left;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+    opacity: 1;
+  }
+  .ab_two_par2{
+    width: 100%;
+    min-width: 100px;
+    max-width: 426px;
+    height: 550px;
+    text-align: left;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+    opacity: 1;
+    margin-top: 3rem;
+    margin-left: 1rem;
+
+  }
+  .ab_Spic{
+    margin-left: 2rem;
+    width: 100%;
+    max-width: 271px;
+    height: 100%;
+    max-height: 412px;
+  }
+  .ab_Spic2{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 100%;
+    max-width: 271px;
+    height: 100%;
+    max-height: 412px;
+  }
+  .ab_label{
+    position: relative;
+    z-index: 2;
+    bottom: 3rem;
+    left: 7rem;
+    width: 220px;
+    height: 60px;
+    background: #EFED70 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 50px #126CC629;
+    border-radius: 5px;
+    opacity: 1;
+  }
+  .ab_label2{
+    position: relative;
+    z-index: 2;
+    top: 10rem;
+    right: 12rem;
+    width: 220px;
+    height: 60px;
+    background: #EFED70 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 50px #126CC629;
+    border-radius: 5px;
+    opacity: 1;
+  }
+  .ab_owner{
+    width: 350px;
+    height: 8px;
+    text-align: left;
+    font: normal normal normal 10px/25px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .ab_ownert{
+    width: 421px;
+    height: 20px;
+    text-align: left;
+    font: normal normal bold 17px/26px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  /*3rd*/
+  .ab_label_third{
+    position: relative;
+    z-index: 2;
+    bottom: 3rem;
+    left: 8rem;
+    width: 444px;
+    height: 117px;
+    background: #EFED70 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 50px #126CC629;
+    border-radius: 5px;
+    opacity: 1;
+  }
+  /*4th*/
+  .ab_bg_fourth{
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ab_MOTM_car{
+    height: 750px;
+  }
+  .ab_carousel{
+    margin-top: 20rem;
+  }
+  .MOTM{
+    width: 210px;
+    height: 100px;
+    text-align: center;
+    font: normal normal bold 28px/33px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+    margin-top: 5rem;
+  }
+  .ab_workers{
+    width: 170px;
+    height: 25px;
+    text-align: left;
+    font: normal normal bold 18px/26px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+  }
+  .ab_role{
+    width: 105px;
+    height: 25px;
+    text-align: left;
+    font: normal normal normal 18px/26px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+  }
+  .ab_card{
+    width: 100%;
+    max-width: 350px;
+    height: 650px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #AFBCCE;
+    border-radius: 5px;
+    opacity: 1;
+  }
+  .ab_par_fourth{
+    width: 100%;
+    max-width: 284px;
+    height: 215px;
+    text-align: left;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+    opacity: 1;
+  }
+  .ab_marg_top_blue{
+    margin-top: 5rem;
+  }
+  .cont_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
