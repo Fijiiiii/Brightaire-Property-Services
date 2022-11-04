@@ -159,8 +159,8 @@ body{
   .home_Carpet{
     top: 300px;
     left: 128px;
-    width: 670px;
-    height: 277px;
+    max-width: 670px;
+    min-height: 277px;
     text-align: left;
     font: normal normal bold 59px/63px Poppins;
     letter-spacing: 0px;
