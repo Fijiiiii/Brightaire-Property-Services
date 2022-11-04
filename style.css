@@ -179,6 +179,9 @@ body{
     color: #EFED70 !important;
 
   }
+  .home_head_contact:hover{
+    background-color: #2FB1CF;
+  }
   .home_card{
     display: flex;
     flex-direction: column;
