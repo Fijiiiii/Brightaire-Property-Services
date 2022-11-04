@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@900&family=Poppins:wght@100;300;400;500&family=Roboto:ital,wght@0,100;0,700;0,900;1,300;1,500;1,700&display=swap');
+*{ 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0;
+}
+
 body{
   overflow-x: hidden;
 }
@@ -351,12 +357,12 @@ opacity: 1;
 }
 .home_third_par{
   width: 182px;
-height: 150px;
-text-align: left;
-font: normal normal normal 12px/16px Poppins;
-letter-spacing: 0px;
-color: #00333E;
-opacity: 1;
+  height: 150px;
+  text-align: left;
+  font: normal normal normal 12px/16px Poppins;
+  letter-spacing: 0px;
+  color: #00333E;
+  opacity: 1;
 }
 /*Fourth*/
 .home_bg4{
@@ -403,7 +409,8 @@ color: #00333E;
 opacity: 1;
 }
 .home_Car_par{
-  width: 284px;
+  width: 100%;
+  max-width: 284px;
 height: 119px;
 text-align: left;
 font: normal normal normal 16px/24px Poppins;
@@ -1426,22 +1433,22 @@ opacity: 1;
   .home_thirdP{
     width: 100%;
     min-width: 100px;
-  height: 164px;
-  text-align: left;
-  font: normal normal bold 29px/31px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
-  opacity: 1;
+    height: 164px;
+    text-align: left;
+    font: normal normal bold 29px/31px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+    opacity: 1;
   }
   .home_thirdP2{
     width: 100%;
     min-width: 100px;
-  height: 191px;
-  text-align: left;
-  font: normal normal normal 16px/24px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
-  opacity: 1;
+    height: 191px;
+    text-align: left;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+    opacity: 1;
   }
   /*cards*/
   .home_circ_arr{
@@ -1472,12 +1479,12 @@ opacity: 1;
   }
   .home_third_par{
     width: 182px;
-  height: 150px;
-  text-align: left;
-  font: normal normal normal 12px/16px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
-  opacity: 1;
+    height: 150px;
+    text-align: left;
+    font: normal normal normal 12px/16px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+    opacity: 1;
   }
   /*Fourth*/
   .home_bg4{
