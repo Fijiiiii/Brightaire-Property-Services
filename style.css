@@ -180,7 +180,10 @@ html, body{
 
   }
   .home_head_contact:hover{
-    background-color: #2FB1CF;
+  color: #2FB1CF !important;
+  border: 2px solid #2FB1CF !important;
+  background-color: #EFED70 !important;
+
   }
   .home_card{
     display: flex;
@@ -277,9 +280,10 @@ html, body{
   }
   .home_call_now{
     margin-left: 1rem !important;
+    margin-top: 1rem !important;
     margin: 0rem;
     max-width: 112px;
-    min-height: 10px;
+    max-height: 30px;
     text-align: left;
     font: normal normal normal 23px/57px Poppins;
     letter-spacing: 0px;
@@ -290,7 +294,7 @@ html, body{
     margin-left: 1rem !important;
     margin: 0rem;
     max-width: 234px;
-    min-height: 52px;
+    min-height: 10px;
     text-align: left;
     font: normal normal bold 30px/57px Poppins;
     letter-spacing: 0px;
@@ -339,7 +343,7 @@ html, body{
     min-height: 60vh;
   }
   .home_card_size{
-    max-width: 400px;
+    max-width: 450px;
     min-height: 300px;
   }
   .home_thirdP{
@@ -430,7 +434,7 @@ html, body{
     opacity: 1;
   }
   .home_Carousel_card{
-    min-width: 350px;
+    min-width: 400px;
     min-height: 400px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
@@ -499,7 +503,7 @@ html, body{
     color: #00333E;
   }
   .home_fifth_par{
-    max-width: 318px;
+    max-width: 500px;
     min-height: 263px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
@@ -508,7 +512,7 @@ html, body{
     opacity: 1;
   }
   .home_van{
-    max-width: 350px;
+    max-width: 330px;
     min-height:100px;
     max-height: 225px;
   }
@@ -536,7 +540,7 @@ html, body{
   .home_sixth_par{
     width: 100%;
     min-width: 100px;
-    max-width: 452px;
+    max-width: 500px;
     height: 167px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
