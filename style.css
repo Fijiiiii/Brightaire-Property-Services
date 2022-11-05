@@ -473,7 +473,7 @@ html, body{
     opacity: 1;
   }
   .home_Car_par{
-    max-width: 300px;
+    max-width: 350px;
     min-height: 119px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
@@ -483,7 +483,7 @@ html, body{
   }
   .home_Car_par2{
     margin-top: -1rem;
-    width: 284px;
+    max-width: 284px;
     height: 119px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
