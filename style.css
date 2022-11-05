@@ -1105,12 +1105,7 @@ html, body{
   }
   /*2nd*/
   .ab_sblue_bg{
-    width: 100%;
-    min-width: 1210px;
-    height: 100%;
-    min-height: 1064px;
     background: #ECFBFF 0% 0% no-repeat padding-box;
-    opacity: 1;
   }
   .ab_sblue_bg2{
     width: 100%;
@@ -1121,9 +1116,8 @@ html, body{
     opacity: 1;
   }
   .ab_two_par{
-    width: 100%;
-    max-width: 426px;
-    height: 887px;
+    max-width: 600px;
+    min-height: 100px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
@@ -1142,14 +1136,12 @@ html, body{
 
   }
   .ab_Spic{
-    width: 525px;
-    height: 100%;
-    max-height: 800px;
+    max-width: 525px;
+    min-height: 100px;
   }
   .ab_Spic2{
-    width: 525px;
-    height: 100%;
-    max-height: 800px;
+    max-width: 525px;
+    min-height: 800px;
   }
   .ab_label{
     position: relative;
@@ -1157,7 +1149,7 @@ html, body{
     bottom: 5rem;
     right: 2rem;
     width: 444px;
-    height: 117px;
+    min-height: 117px;
     background: #EFED70 0% 0% no-repeat padding-box;
     box-shadow: 0px 20px 50px #126CC629;
     border-radius: 5px;
@@ -1166,8 +1158,8 @@ html, body{
   .ab_label2{
     position: relative;
     z-index: 2;
-    top: 15rem;
-    right: 25rem;
+    top: -5rem;
+    right: -8rem;
     width: 444px;
     height: 117px;
     background: #EFED70 0% 0% no-repeat padding-box;
@@ -1211,14 +1203,15 @@ html, body{
     align-items: center;
   }
   .MOTM{
-    width: 555px;
-    height: 63px;
+    max-width: 555px;
+    min-height: 63px;
     text-align: left;
     font: normal normal bold 45px/47px Poppins;
     letter-spacing: 0px;
     color: #00333E;
   }
   .ab_workers{
+    margin: 1rem 0rem 0rem 1rem;
     width: 170px;
     height: 25px;
     text-align: left;
@@ -1227,6 +1220,7 @@ html, body{
     color: #00333E;
   }
   .ab_role{
+    margin-left: 1rem;
     width: 105px;
     height: 25px;
     text-align: left;
@@ -1235,7 +1229,8 @@ html, body{
     color: #00333E;
   }
   .ab_card{
-    width: 350px;
+    width: 100%;
+    max-width: 400px;
     height: 650px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
@@ -1244,8 +1239,9 @@ html, body{
     opacity: 1;
   }
   .ab_par_fourth{
-    width: 284px;
-    height: 215px;
+    margin: 1rem;
+    max-width: 284px;
+    min-height: 215px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
@@ -1281,11 +1277,30 @@ html, body{
     color: #000D10;
   }
   /*footer*/
+  .foot_div_bord{
+    border-right: 1px solid #5A6B82;
+    align-items: flex-start !important;
+    justify-content: center !important;
+  }
   .bgfooter{
-    height: 100%;
     min-height: 136px;
     background: #192331 0% 0% no-repeat padding-box;
-    opacity: 1;
+  }
+  .foot_head{
+    max-width: 156px;
+  min-height: 25px;
+  text-align: left;
+  font: normal normal bold 18px/22px Poppins;
+  letter-spacing: 0px;
+  color: #7E91AB;
+  }
+  .foot_but{
+    max-width: 100px;
+    min-height: 10px;
+    text-align: left;
+    font: normal normal normal 12px/27px Poppins;
+    letter-spacing: 0px;
+    color: #D0DEF0;
   }
   .footer_par{
     width: 318px;
