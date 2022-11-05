@@ -3579,9 +3579,6 @@ text-transform: uppercase;
 }
 /*Phone*/
 @media (max-width: 425px){
-  *{ 
-    overflow-x: hidden;
-  }
   /*nav-bar*/
   .logo2{
     top: 28px;
