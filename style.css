@@ -690,7 +690,7 @@ html, body{
   }
   .marg_indicator{
     justify-content: flex-start !important;
-    margin-left: 2rem !important;
+    margin-left: 25px !important;
   }
 
   /****************************************************<S E R V I C E S>*********************************************************/
