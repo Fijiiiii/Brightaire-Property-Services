@@ -3,10 +3,9 @@
   box-sizing: border-box; 
   margin: 0; 
   padding: 0;
-  overflow-x: hidden;
 }
 html, body{
-  overflow-x: visible;
+  overflow-x: hidden;
 }
 
   .marg_gen_bot{
