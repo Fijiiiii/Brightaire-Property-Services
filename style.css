@@ -1279,8 +1279,6 @@ html, body{
   /*footer*/
   .foot_div_bord{
     border-right: 1px solid #5A6B82;
-    align-items: flex-start !important;
-    justify-content: center !important;
   }
   .bgfooter{
     min-height: 136px;
@@ -1288,28 +1286,86 @@ html, body{
   }
   .foot_head{
     max-width: 156px;
-  min-height: 25px;
-  text-align: left;
-  font: normal normal bold 18px/22px Poppins;
-  letter-spacing: 0px;
-  color: #7E91AB;
+    min-height: 10px;
+    text-align: left;
+    font: normal normal bold 18px/22px Poppins;
+    letter-spacing: 0px;
+    color: #7E91AB;
+
   }
   .foot_but{
-    max-width: 100px;
-    min-height: 10px;
+    max-width: 150px;
+    min-height: 5px;
     text-align: left;
     font: normal normal normal 12px/27px Poppins;
     letter-spacing: 0px;
     color: #D0DEF0;
+    margin-bottom: 0px !important;
   }
-  .footer_par{
-    width: 318px;
-    height: 17px;
-    text-align: center;
+  .foot_marg1{
+    padding-bottom: 12rem !important;
+  }
+  .foot_marg2{
+    padding-bottom: 5rem !important;
+  }
+  .foot_div_bord_bot{
+    border-bottom: 1px solid #5A6B82;
+  }
+  .foot_Name{
+    width: 100%;
+    max-width: 310px;
+    min-height: 39px;
+    color: wheat;
+    background: #334051 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 3px #00000012;
+    border-radius: 5px;
+    border: none;
+  }
+  .foot_mail{
+    max-width: 150px;
+    min-height: 39px;
+    color: wheat;
+    border: none;
+    background: #334051 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 3px #00000012;
+    border-radius: 5px;
+  }
+  .foot_message{
+    color: wheat;
+    border: none;
+    width: 100%;
+    max-width: 310px;
+    min-height: 80px;
+    background: #334051 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 3px #00000012;
+    border-radius: 5px;
+  }
+  .foot_submit{
+    color: wheat;
+    border: none;
+    width: 100%;
+    font-weight: 700;
+    max-width: 310px;
+    min-height: 51px;
+    background: #FF3400 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+  }
+  .footer_img{
+    max-width: 159px;
+    min-height: 67px;
+  }
+  .footer_img1{
+    max-width: 91px;
+    min-height: 60px;
+  }
+  .foot_final_par{
+    margin-bottom: 0px !important;
+    max-width: 400px;
+    min-height: 5px;
+    text-align: left;
     font: normal normal normal 12px/42px Poppins;
     letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
+    color: #7E91AB;
   }
 
 
