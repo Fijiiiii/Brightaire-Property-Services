@@ -131,7 +131,8 @@ html, body{
     width: 30px;
         height: 15px;
     background: url("Img_Home_Page/arrow-yellow.png") no-repeat;
-    display: inline-block;
+
+    
   }
   .arrow:hover{
     background: url("Img_Home_Page/arrow-black.png") no-repeat;
@@ -233,6 +234,7 @@ html, body{
     border-radius: 5px;
     opacity: 1;
     margin-top: 1em;
+    color: gray;
   }
   .home_mail{
     width: 150px;
@@ -458,7 +460,7 @@ html, body{
     opacity: 1;
   }
   .home_Carousel_card{
-    min-width: 400px;
+    max-width: 400px;
     min-height: 400px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
@@ -1237,7 +1239,7 @@ html, body{
     letter-spacing: 0px;
     color: #000000;
     margin-bottom: 0px !important;
-    padding-top: 1rem !important;
+    padding-top: 0rem !important;
   }
   .ab_ownert{
     max-width: 421px;
@@ -1246,7 +1248,7 @@ html, body{
     font: normal normal bold 37px/57px Poppins;
     letter-spacing: 0px;
     color: #000000;
-    margin-top: -2rem !important;
+    margin-top: -1rem !important;
   }
   /*3rd*/
   .ab_label_third{
