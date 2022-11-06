@@ -31,7 +31,7 @@ html, body{
     background-color: #057690 !important;
   }
   .logo{
-    top: -3rem;
+    top: -46px;
     position:absolute;
     z-index: 1;
     max-width: 230px;
@@ -300,7 +300,7 @@ html, body{
     color: #000000;
   }
   .home_welcome{
-    width: 178px;
+    max-width: 200px;
     height: 40px;
     text-align: left;
     font: normal normal bold 29px/47px Poppins;
@@ -432,7 +432,7 @@ html, body{
     background: #ECFBFF 0% 0% no-repeat padding-box;
   }
   .home_Fourth_head{
-    max-width: 305px;
+    max-width: 350px;
     min-height: 63px;
     text-align: center;
     font: normal normal bold 45px/47px Poppins;
@@ -509,7 +509,7 @@ html, body{
     color: #00333E;
   }
   .home_fifth_head2{
-    max-width: 310px;
+    max-width: 350px;
     min-height: 63px;
     text-align: left;
     font: normal normal bold 45px/47px Poppins;
@@ -692,11 +692,22 @@ html, body{
     justify-content: flex-start !important;
     margin-left: 25px !important;
   }
-
+  h2 {
+    width: 100%; 
+    text-align: center; 
+    border-top: 1px solid #94AAC7; 
+    line-height: 0.1em;
+ } 
+ 
+ h2 span { 
+     background:#fff; 
+     padding:5px; 
+     color: #94AAC7;
+ }
   /****************************************************<S E R V I C E S>*********************************************************/
   .servs_head{
-    width: 600px;
-    height: 80px;
+    max-width: 600px;
+    min-height: 80px;
     text-align: left;
     font: normal normal bold 59px/63px Poppins;
     letter-spacing: 0px;
@@ -704,20 +715,19 @@ html, body{
     opacity: 1;
   }
   .servi_up_buts{
-    width: 100%;
-    min-width: 50px;
+    margin-bottom: 0px !important;
     max-width: 120px;
-    height: 20px;
+    min-height: 20px;
     text-align: left;
     font: normal normal normal 14px/25px Poppins;
     letter-spacing: 0px;
     color: #057690;
   }
   .servi_up_arr{
+    margin-bottom: 0px !important;
     width: 100%;
-    min-width: 20px;
     max-width: 50px;
-    height: 20px;
+    min-height: 20px;
     text-align: left;
     font: normal normal normal 14px/25px Poppins;
     letter-spacing: 0px;
@@ -749,14 +759,25 @@ html, body{
     height: 8rem;
   }
   .serve_icon{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    max-width: 50px;
+    min-height: 50px;
     border: none;
-    background-color: #EFED70;
+  }
+  .serve_icon2{
+    max-width: 75px;
+    min-height: 50px;
+    border: none;
   }
   .serv_icon_label{
     width: 140px;
+    height: 47px;
+    text-align: center;
+    font: normal normal bold 18px/22px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+  }
+  .serv_icon_label2{
+    width: 80px;
     height: 47px;
     text-align: center;
     font: normal normal bold 18px/22px Poppins;
@@ -772,7 +793,7 @@ html, body{
     color: #00333E;
   }
   .serv_benefits{
-    width: 326px;
+    max-width: 350px;
     height: 23px;
     text-align: left;
     font: normal normal bold 16px/32px Poppins;
@@ -840,6 +861,7 @@ html, body{
     font: normal normal bold 33px/42px Poppins;
     letter-spacing: 0px;
     color: #00333E;
+    margin-left: -6rem;
   }
   .serv_get_par{
     max-width: 800px;
@@ -878,10 +900,15 @@ html, body{
     letter-spacing: 0px;
   }
   .serv_img{
-    width: 100%;
-    min-width: none;
     max-width: 350px;
-    height: 225px;
+    min-height: 225px;
+  }
+  .serv_car_height{
+    max-height: 700px !important;
+    padding-bottom: 50rem !important;
+  }
+  .serv_car_height_nav{
+    margin-bottom: 5rem !important;
   }
   .serv_last_bg{
     display: flex;
@@ -893,6 +920,14 @@ html, body{
     display: flex;
     flex-direction: column;
   }
+  .serv_car_size {
+    min-height: 35rem !important;
+  }
+  .serv_marg_indicator{
+    justify-content: flex-start !important;
+    margin-left: 15px !important;
+  }
+
   /****************************************************<C O N T A C T>*********************************************************/
   header{
     top: 150px;
