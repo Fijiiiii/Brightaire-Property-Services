@@ -606,7 +606,6 @@ html, body{
   }
   .home_seventh_head{
     display: flex;
-    justify-content: end;
     align-items:flex-end;
     width: 100%;
     max-width: 800px;
