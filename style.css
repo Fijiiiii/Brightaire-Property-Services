@@ -968,9 +968,10 @@ html, body{
   .cont_bg{
     background: #ECFBFF 0% 0% no-repeat padding-box;
   }
+  .cont_right_padd{
+    padding-right: 0px!important;
+  }
   .cont_box{
-    width: 100%;
-    max-width: 1300px;
     height: 100%;
     min-height: 640px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -1032,6 +1033,7 @@ html, body{
     border-radius: 5px;
     opacity: 1;
     margin-top: 1rem;
+    color: gray;
   }
   .cont_mail{
     width: 195px;
@@ -1041,6 +1043,7 @@ html, body{
     border: 1px solid #CAD2D8;
     border-radius: 5px;
     opacity: 1;
+    color: gray;
   }
   .cont_message{
     width: 400px;
@@ -1049,6 +1052,7 @@ html, body{
     box-shadow: 0px 2px 3px #00000012;
     border: 1px solid #CAD2D8;
     border-radius: 5px;
+    color: gray;
     opacity: 1;
   }
   .cont_submit{
@@ -1103,6 +1107,15 @@ html, body{
     letter-spacing: 0px;
     color: #EFED70;
     text-transform: uppercase;
+  }
+  .cont_Name:focus::-webkit-input-placeholder{
+    opacity: 0% !important;
+  }
+  .cont_Name:focus::-moz-placeholder{
+    opacity: 0% !important;
+  }
+  .cont_Name:focus::-ms-input-placeholder{
+    opacity: 0% !important;
   }
   /****************************************************<A B O U T>*********************************************************/
   .ab_head{
@@ -1423,15 +1436,7 @@ html, body{
     color: #7E91AB;
   }
 
-  .inputs:focus::-webkit-input-placeholder {
-    opacity : 0 !important;
-  }
-  .inputs:focus::-moz-placeholder {
-    opacity : 0 !important;
-  }
-  .inputs:focus::-ms-placeholder {
-    opacity : 0 !important;
-  }
+  
 @media (max-width: 1024px){
   /****************************************************<H O M E>*********************************************************/
 
