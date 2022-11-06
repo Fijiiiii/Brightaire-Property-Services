@@ -535,7 +535,7 @@ html, body{
   background: #F0FAFC 0% 0% no-repeat padding-box;
   }
   .home_sixth_head{
-    width: 178px;
+    max-width: 200px;
     min-height: 40px;
     text-align: left;
     font: normal normal bold 29px/47px Poppins;
@@ -764,8 +764,8 @@ html, body{
     color: #00333E;
   }
   .serv_remove{
-    max-width: 665px;
-    min-height: 182px;
+    max-width: 800px;
+    min-height: 80px;
     text-align: left;
     font: normal normal bold 33px/42px Poppins;
     letter-spacing: 0px;
@@ -780,8 +780,8 @@ html, body{
     color: #00333E;
   }
   .serv_bullets{
-    width: 643px;
-    height: 25px;
+    max-width: 643px;
+    min-height: 25px;
     text-align: left;
     font: normal normal normal 16px/32px Poppins;
     letter-spacing: 0px;
@@ -790,6 +790,8 @@ html, body{
   }
   .bulls ul {
     list-style: none;
+    margin-left: 0px !important;
+    padding-left: 20px !important;
   }
   hr{
     width: 100%;
@@ -811,16 +813,16 @@ html, body{
   }
   .serv_ensure{
     margin-top: 2rem;
-    width: 581px;
-    height: 120px;
+    max-width: 800px;
+    min-height: 50px;
     text-align: left;
     font: normal normal normal 29px/36px Poppins;
     letter-spacing: 0px;
     color: #00333E;
   }
   .serv_get{
-    width: 677px;
-    height: 120px;
+    max-width: 800px;
+    min-height: 50px;
     text-align: left;
     font: normal normal bold 33px/42px Poppins;
     letter-spacing: 0px;
@@ -832,16 +834,16 @@ html, body{
     align-items: center;
   }
   .serv_PG{
-    width: 277px;
-    height: 50px;
+    max-width: 277px;
+    min-height: 50px;
     text-align: left;
     font: normal normal bold 33px/42px Poppins;
     letter-spacing: 0px;
     color: #00333E;
   }
   .serv_get_par{
-    width: 627px;
-    height: 100px;
+    max-width: 800px;
+    min-height: 50px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
@@ -855,26 +857,22 @@ html, body{
     color: #00333E;
   }
   .serv_get_par2{
-    width: 627px;
-    height: 120px;
+    max-width: 800px;
+    min-height: 50px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
   }
   .serv_get_par3{
-    width: 627px;
-    height: 20px;
+    max-width: 800px;
+    min-height: 20px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
   }
   .serv_get_par4{
-    width: 100%;
-    min-width: 100px;
-    max-width: 627px;
-    height: 100%;
-    min-height: 200px;
-    max-height: 250px;
+    max-width: 800px;
+    min-height: 50px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
@@ -1072,7 +1070,7 @@ html, body{
     margin-top: 10rem;
   }
   .ab_par{
-    width: 472px;
+    max-width: 700px;
     height: 23px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
@@ -1101,7 +1099,7 @@ html, body{
     width: 100%;
     height: 100%;
     max-width: 200px;
-    max-height: 130px;
+    max-height: 150px;
   }
   /*2nd*/
   .ab_sblue_bg{
@@ -1168,20 +1166,23 @@ html, body{
     opacity: 1;
   }
   .ab_owner{
-    width: 350px;
-    height: 32px;
+    max-width: 350px;
+    min-height: 10px;
     text-align: left;
     font: normal normal normal 23px/57px Poppins;
     letter-spacing: 0px;
     color: #000000;
+    margin-bottom: 0px !important;
+    padding-top: 1rem !important;
   }
   .ab_ownert{
-    width: 421px;
-    height: 52px;
+    max-width: 421px;
+    min-height: 20px;
     text-align: left;
     font: normal normal bold 37px/57px Poppins;
     letter-spacing: 0px;
     color: #000000;
+    margin-top: -2rem !important;
   }
   /*3rd*/
   .ab_label_third{
@@ -1203,7 +1204,7 @@ html, body{
     align-items: center;
   }
   .MOTM{
-    max-width: 555px;
+    max-width: 600px;
     min-height: 63px;
     text-align: left;
     font: normal normal bold 45px/47px Poppins;
@@ -1212,8 +1213,8 @@ html, body{
   }
   .ab_workers{
     margin: 1rem 0rem 0rem 1rem;
-    width: 170px;
-    height: 25px;
+    max-width: 200px;
+    min-height: 25px;
     text-align: left;
     font: normal normal bold 18px/26px Poppins;
     letter-spacing: 0px;
@@ -1268,7 +1269,7 @@ html, body{
   }
   .almost_calltwo{
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     height: 100%;
     min-height: 100px;
     text-align: center;
@@ -1301,6 +1302,9 @@ html, body{
     letter-spacing: 0px;
     color: #D0DEF0;
     margin-bottom: 0px !important;
+  }
+  .foot_but:hover{
+    color: #EFED70;
   }
   .foot_marg1{
     padding-bottom: 12rem !important;
@@ -1341,7 +1345,7 @@ html, body{
     border-radius: 5px;
   }
   .foot_submit{
-    color: wheat;
+    color: white;
     border: none;
     width: 100%;
     font-weight: 700;
@@ -1368,7 +1372,15 @@ html, body{
     color: #7E91AB;
   }
 
-
+  .inputs:focus::-webkit-input-placeholder {
+    opacity : 0 !important;
+  }
+  .inputs:focus::-moz-placeholder {
+    opacity : 0 !important;
+  }
+  .inputs:focus::-ms-placeholder {
+    opacity : 0 !important;
+  }
 @media (max-width: 1024px){
   /****************************************************<H O M E>*********************************************************/
 
