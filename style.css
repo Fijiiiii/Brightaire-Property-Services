@@ -698,7 +698,12 @@ html, body{
   }
   .marg_indicator{
     justify-content: flex-start !important;
-    margin-left: 50px !important;
+    margin-left: -50px !important;
+    padding-left: opx !important;
+  }
+  .carousel-indicators{
+    margin-left: 0px !important;
+    padding-left: 0px !important;
   }
   h2 {
     width: 100%; 
