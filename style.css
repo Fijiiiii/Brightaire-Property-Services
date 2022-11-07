@@ -996,8 +996,10 @@ html, body{
     position: absolute;
     z-index: 11;
   }
+  .cont_cont{
+  }
   .cont_get{
-    max-width: 800px;
+    max-width: 1000px !important;
     min-height: 63px;
     text-align: left;
     font: normal normal bold 45px/47px Poppins;
