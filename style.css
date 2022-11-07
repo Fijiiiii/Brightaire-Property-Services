@@ -106,6 +106,7 @@ html, body{
     text-decoration: none;
   }
   .dropdowns{
+    display: none;
     border-top: 3px solid #EFED70 !important;
     background: #00333E 0% 0% no-repeat padding-box !important;
     width: 100%;
@@ -115,6 +116,10 @@ html, body{
   }
   .ver_flow_x{
     overflow-x: visible !important;
+  }
+
+  .dropdown:hover .dropdowns {
+    display: block !important;
   }
   .DM{
     width: 161px;
@@ -780,7 +785,7 @@ html, body{
     border: none;
   }
   .serv_icon_label{
-    width: 140px;
+    max-width: 150px;
     height: 47px;
     text-align: center;
     font: normal normal bold 18px/22px Poppins;
