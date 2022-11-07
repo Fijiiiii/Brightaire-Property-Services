@@ -159,7 +159,7 @@ html, body{
   .home_Sunshine{
     top: 263px;
     left: 128px;
-    width: 368px;
+    max-width: 400px;
     height: 37px;
     text-align: left;
     font: normal normal bold 27px/17px Poppins;
@@ -208,7 +208,7 @@ html, body{
     padding: 1rem;
   }
   .home_get{
-    max-width: 301px;
+    max-width: 500px;
     min-height: 10px !important;
     text-align: left;
     font: normal normal bold 33px/57px Poppins;
@@ -459,6 +459,7 @@ html, body{
     opacity: 1;
   }
   .home_Carousel_card{
+    width: 100%;
     max-width: 400px;
     min-height: 400px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -474,22 +475,22 @@ html, body{
     
   }
   .home_Car_title{
-    max-width: 400px;
+    max-width: 300px;
     min-height: 30px;
     text-align: left;
     font: normal normal bold 18px/22px Poppins;
     letter-spacing: 0px;
     color: #00333E;
-    opacity: 1;
+    padding-right: 1rem;
   }
   .home_Car_par{
-    max-width: 350px;
+    max-width: 300px;
     min-height: 119px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
     color: #00333E;
-    opacity: 1;
+    padding-right: 1rem;
   }
   .home_Car_par2{
     margin-top: -1rem;
@@ -511,7 +512,7 @@ html, body{
   /*Fifth*/
   .home_fifth_head{
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     min-height: 20px;
     text-align: left;
     font: normal normal bold 21px/33px Poppins;
@@ -698,13 +699,10 @@ html, body{
   }
   .marg_indicator{
     justify-content: flex-start !important;
-    margin-left: -50px !important;
+    margin-left: 0px !important;
     padding-left: opx !important;
   }
-  .carousel-indicators{
-    margin-left: 0px !important;
-    padding-left: 0px !important;
-  }
+
   h2 {
     width: 100%; 
     text-align: center; 
@@ -944,7 +942,8 @@ html, body{
   }
   .serv_marg_indicator{
     justify-content: flex-start !important;
-    margin-left: 15px !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
   }
 
   /****************************************************<C O N T A C T>*********************************************************/
@@ -1000,8 +999,6 @@ html, body{
   .cont_positwo{
     position: absolute;
     z-index: 11;
-  }
-  .cont_cont{
   }
   .cont_get{
     max-width: 1000px !important;
@@ -1326,6 +1323,7 @@ html, body{
   /*last*/
   .almost{
     background: #EFED70 0% 0% no-repeat padding-box;
+    min-height: 250px;
   }
   .almost_call{
     width: 100%;
@@ -1339,10 +1337,8 @@ html, body{
     opacity: 1;
   }
   .almost_calltwo{
-    width: 100%;
     max-width: 800px;
-    height: 100%;
-    min-height: 100px;
+    height: 10px;
     text-align: center;
     font: normal normal bold 45px/22px Poppins;
     letter-spacing: 0px;
@@ -1695,7 +1691,8 @@ html, body{
   }
   .serv_marg_indicator{
     justify-content: flex-start !important;
-    margin-left: 0px !important;
+    margin-left: 400px !important;
+    padding-left: 400px !important;
   }
 
   /****************************************************<C O N T A C T>*********************************************************/
@@ -2662,7 +2659,7 @@ html, body{
   }
   .serv_marg_indicator{
     justify-content: flex-start !important;
-    margin-left: 150px !important;
+    margin-left: 0px !important;
   }
 /****************************************************<C O N T A C T>*********************************************************/
 header{
