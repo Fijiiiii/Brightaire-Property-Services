@@ -1696,8 +1696,8 @@ html, body{
   }
   .serv_marg_indicator{
     justify-content: flex-start !important;
-    margin-left: 400px !important;
-    padding-left: 400px !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
   }
 
   /****************************************************<C O N T A C T>*********************************************************/
@@ -2645,6 +2645,7 @@ html, body{
   .serv_car_height{
     max-height: 700px !important;
     padding-bottom: 50rem !important;
+    padding-left: 0px !important;
   }
   .serv_car_height_nav{
     margin-bottom: 5rem !important;
@@ -2665,6 +2666,7 @@ html, body{
   .serv_marg_indicator{
     justify-content: flex-start !important;
     margin-left: 0px !important;
+    padding-left: 0px !important;
   }
 /****************************************************<C O N T A C T>*********************************************************/
 header{
@@ -3975,7 +3977,7 @@ header{
   }
   .serv_marg_indicator{
     justify-content: flex-start !important;
-    margin-left: 150px !important;
+    margin-left: 0px !important;
   }
   /****************************************************<C O N T A C T>*********************************************************/
   header{
