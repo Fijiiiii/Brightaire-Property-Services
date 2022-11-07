@@ -387,14 +387,14 @@ html, body{
   .home_circ_arr{
     margin-top: -1rem;
     text-align: center;
-    padding: 15px 15px 15px 15px;
+    padding: 11px 15px 15px 15px;
     border-radius: 50%;
     border: none;
     background-color: #057690 !important;
   }
   .home_circ_arr2{
     margin-top: -1rem;
-    padding: 10px 10px 10px 10px;
+    padding: 8px 10px 10px 10px;
     border-radius: 50%;
     border: none;
     background-color: #057690 !important;
