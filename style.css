@@ -2489,7 +2489,7 @@ html, body{
     margin-bottom: 5rem;
   }
   .serv_meds{
-    max-width: 5rem;
+    max-width: 6rem;
     min-height: 8rem;
   }
   .serve_icon{
@@ -3801,8 +3801,8 @@ header{
     margin-bottom: 5rem;
   }
   .serv_meds{
-    max-width: 5rem;
-    min-height: 8rem;
+    max-width: 6rem;
+    min-height: 1rem;
   }
   .serve_icon{
     max-width: 50px;
@@ -4897,7 +4897,7 @@ header{
   }
   .serv_meds{
     width: 5rem;
-    height: 8rem;
+    min-height: 1rem;
   }
   .serve_icon{
     width: 50px;
