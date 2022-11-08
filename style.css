@@ -4008,10 +4008,6 @@ header{
     max-width: 350px;
     min-height: 225px;
   }
-  .serv_car_height{
-    height: 100%;
-    min-height: 9000px !important;
-  }
   .serv_car_height_nav{
     margin-bottom: 5rem !important;
   }
