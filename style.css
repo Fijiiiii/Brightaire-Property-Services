@@ -569,7 +569,7 @@ html, body{
   }
   .home_sixth_par{
     max-width: 800px;
-    height: 167px;
+    min-height: 167px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
@@ -1992,9 +1992,8 @@ html, body{
     color: #00333E;
   }
   .home_thirdP{
-    width: 100%;
-    min-width: 100px;
-    height: 164px;
+    max-width: 650px;
+    min-height: 191px;
     text-align: left;
     font: normal normal bold 29px/31px Poppins;
     letter-spacing: 0px;
@@ -2002,9 +2001,8 @@ html, body{
     opacity: 1;
   }
   .home_thirdP2{
-    width: 100%;
-    min-width: 100px;
-    height: 191px;
+    max-width: 650px;
+    min-height: 191px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
@@ -4698,8 +4696,8 @@ header{
     color: #00333E;
   }
   .home_thirdP{
-    min-width: 100px;
-    min-height: 200px;
+    max-width: 650px;
+    min-height: 191px;
     text-align: left;
     font: normal normal bold 21px/27px Poppins;
     letter-spacing: 0px;
@@ -4707,9 +4705,8 @@ header{
     opacity: 1;
   }
   .home_thirdP2{
-    width: 100%;
-    min-width: 100px;
-    height: 200px;
+    max-width: 650px;
+    min-height: 191px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
