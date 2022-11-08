@@ -2119,7 +2119,7 @@ html, body{
     width: 100%;
     min-width: 100px;
     max-width: 426px;
-    height: 887px;
+    min-height: 887px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
@@ -2924,7 +2924,7 @@ header{
     width: 100%;
     min-width: 100px;
     max-width: 526px;
-    height: 887px;
+    min-height: 887px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
@@ -4318,9 +4318,7 @@ header{
     width: 100%;
     min-width: 100px;
     max-width: 370px;
-    height: 100%;
     min-height: 100px;
-    max-height: 1100px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
