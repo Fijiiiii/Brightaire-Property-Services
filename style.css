@@ -2337,8 +2337,8 @@ html, body{
     font: normal normal normal 14px/38px Poppins;
     letter-spacing: 0px;
     color: #4A98A9;
-  text-transform: uppercase;
-  margin-top: -10px !important;
+    text-transform: uppercase;
+    margin-top: -10px !important;
   }
   .DM:hover{
     color: #EFED70 !important;
