@@ -929,7 +929,7 @@ html, body{
   }
   .serv_car_height{
     height: 100%;
-    min-height: 800px !important;
+    min-height: 750px !important;
     padding: 0px !important;
     margin: 0rem !important;
   }
@@ -1498,13 +1498,21 @@ html, body{
   .NV_circ_arr{
     margin-top: -1rem;
     text-align: center;
-    padding: 11px 15px 15px 15px;
+    padding: 11px 14px 15px 13px;
     border-radius: 50%;
     border: none;
     background-color: #057690 !important;
   }
   .card{
     background-color: #DEF3F9 !important;
+  }
+  .no_padding_x{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .no_padding_x2{
+    padding-left: 1% !important;
+    padding-right: 1% !important;
   }
   /*marg*/
 @media (max-width: 1024px){
@@ -1734,10 +1742,6 @@ html, body{
   .serv_img{
     max-width: 350px;
     min-height: 225px;
-  }
-  .serv_car_height{
-    max-height: 700px !important;
-    padding-bottom: 50rem !important;
   }
   .serv_car_height_nav{
     margin-bottom: 5rem !important;
@@ -2695,11 +2699,6 @@ html, body{
     max-width: 350px;
     min-height: 225px;
   }
-  .serv_car_height{
-    max-height: 700px !important;
-    padding-bottom: 50rem !important;
-    padding-left: 0px !important;
-  }
   .serv_car_height_nav{
     margin-bottom: 0rem !important;
   }
@@ -2720,6 +2719,7 @@ html, body{
     justify-content: flex-start !important;
     margin-left: 1% !important;
   }
+
 /****************************************************<C O N T A C T>*********************************************************/
 header{
   top: 150px;
