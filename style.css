@@ -1922,8 +1922,8 @@ html, body{
     color: #00333E;
   }
   .ab_workers{
-    width: 170px;
-    height: 25px;
+    max-width: 300px;
+    min-height: 25px;
     text-align: left;
     font: normal normal bold 18px/26px Poppins;
     letter-spacing: 0px;
@@ -2224,8 +2224,8 @@ html, body{
     color: #00333E;
   }
   .ab_workers{
-    width: 170px;
-    height: 25px;
+    max-width: 300px;
+    min-height: 25px;
     text-align: left;
     font: normal normal bold 18px/26px Poppins;
     letter-spacing: 0px;
@@ -3033,8 +3033,8 @@ header{
     margin-top: 5rem;
   }
   .ab_workers{
-    width: 170px;
-    height: 25px;
+    max-width: 300px;
+    min-height: 25px;
     text-align: left;
     font: normal normal bold 18px/26px Poppins;
     letter-spacing: 0px;
@@ -4438,8 +4438,8 @@ header{
     margin-top: 5rem;
   }
   .ab_workers{
-    width: 170px;
-    height: 25px;
+    max-width: 300px;
+    min-height: 25px;
     text-align: left;
     font: normal normal bold 18px/26px Poppins;
     letter-spacing: 0px;
@@ -5326,8 +5326,9 @@ header{
     margin-top: 5rem;
   }
   .ab_workers{
-    width: 170px;
-    height: 25px;
+    width: 100%;
+    max-width: 500px;
+    min-height: 100px !important;
     text-align: left;
     font: normal normal bold 18px/26px Poppins;
     letter-spacing: 0px;
@@ -5344,7 +5345,7 @@ header{
   .ab_card{
     width: 100%;
     max-width: 350px;
-    height: 650px;
+    min-height: 650px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border: 1px solid #AFBCCE;
