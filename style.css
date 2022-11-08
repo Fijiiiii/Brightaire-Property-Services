@@ -1448,8 +1448,65 @@ html, body{
     letter-spacing: 0px;
     color: #7E91AB;
   }
-
-  
+  /****************************************************<New Services>*********************************************************/
+  .NV_par{
+    max-width: 640px;
+    min-height: 164px;
+    text-align: left;
+    font: normal normal bold 29px/31px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+  }
+  .NV_par2{
+    max-width: 640px;
+    min-height: 191px;
+    text-align: left;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+  }
+  /*cards*/
+  .NV_img{
+    max-width: 650px;
+    min-height: 187px;
+  }
+  .NV_card_size{
+    max-width: 650px;
+    min-height: 520px;
+    border: transparent !important;
+  }
+  .NV_title{
+    max-width: 300px;
+    min-height: 25px;
+    text-align: left;
+    font: normal normal bold 18px/21px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .NV_car_par{
+    max-width: 600px;
+    min-height: 175px;
+    text-align: left;
+    font: normal normal normal 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+  }
+  .NV_card_flex_button{
+    display: flex;
+    justify-content: end;
+  }
+  .NV_circ_arr{
+    margin-top: -1rem;
+    text-align: center;
+    padding: 11px 15px 15px 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: #057690 !important;
+  }
+  .card{
+    background-color: #DEF3F9 !important;
+  }
+  /*marg*/
 @media (max-width: 1024px){
   /****************************************************<H O M E>*********************************************************/
   /*Fifth*/
