@@ -4767,8 +4767,8 @@ header{
     border-radius: 0% 0% 100% 0%;
   }
   .home_Car_title{
-    width: 100px;
-    height: 47px;
+    max-width: 300px;
+    min-height: 15px;
     text-align: left;
     font: normal normal bold 18px/22px Poppins;
     letter-spacing: 0px;
@@ -4779,7 +4779,7 @@ header{
     width: 100%;
     min-width: 100px;
     max-width: 284px;
-    height: 119px;
+    min-height: 119px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
