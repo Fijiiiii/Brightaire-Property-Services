@@ -922,14 +922,14 @@ html, body{
     letter-spacing: 0px;
   }
   .serv_img{
-    width: 100%;
     max-width: 350px;
     min-height: 225px;
-    padding-left: -10px !important;
+    padding: 0px !important;
     margin: 0px !important;
   }
   .serv_car_height{
-    min-height: 800px !important;
+    height: 100%;
+    min-height: 700px !important;
     padding: 0px !important;
     margin: 0rem !important;
   }
@@ -4009,8 +4009,8 @@ header{
     min-height: 225px;
   }
   .serv_car_height{
-    max-height: 700px !important;
-    padding-bottom: 50rem !important;
+    height: 100%;
+    min-height: 9000px !important;
   }
   .serv_car_height_nav{
     margin-bottom: 5rem !important;
