@@ -922,15 +922,20 @@ html, body{
     letter-spacing: 0px;
   }
   .serv_img{
+    width: 100%;
     max-width: 350px;
     min-height: 225px;
+    padding-left: -10px !important;
+    margin: 0px !important;
   }
   .serv_car_height{
-    max-height: 700px !important;
-    padding-bottom: 50rem !important;
+    min-height: 800px !important;
+    padding: 0px !important;
+    margin: 0rem !important;
   }
   .serv_car_height_nav{
-    margin-bottom: 5rem !important;
+    margin: 0rem !important;
+    padding: 0px !important;
   }
   .serv_last_bg{
     display: flex;
@@ -948,9 +953,9 @@ html, body{
   .serv_marg_indicator{
     justify-content: flex-start !important;
     margin-left: 0px !important;
-    padding-left: 0px !important;
+    padding-left: 1% !important;
   }
-
+  
   /****************************************************<C O N T A C T>*********************************************************/
   header{
     top: 150px;
@@ -1693,11 +1698,6 @@ html, body{
   }
   .serv_car_size {
     min-height: 35rem !important;
-  }
-  .serv_marg_indicator{
-    justify-content: flex-start !important;
-    margin-left: 0px !important;
-    padding-left: 0px !important;
   }
 
   /****************************************************<C O N T A C T>*********************************************************/
@@ -2664,9 +2664,8 @@ html, body{
     min-height: 35rem !important;
   }
   .serv_marg_indicator{
-    justify-content: flex-start !important;
-    margin-left: 0px !important;
-    padding-left: 0px !important;
+    justify-content: center !important;
+    margin-left: 15% !important;
   }
 /****************************************************<C O N T A C T>*********************************************************/
 header{
@@ -3749,7 +3748,7 @@ header{
   }
   .marg_indicator{
     justify-content: flex-start !important;
-    margin-left: 50px !important;
+    margin-left: 0px !important;
   }
   /****************************************************<S E R V I C E S>*********************************************************/
   .servs_head{
@@ -3974,10 +3973,6 @@ header{
   }
   .serv_car_size {
     min-height: 35rem !important;
-  }
-  .serv_marg_indicator{
-    justify-content: flex-start !important;
-    margin-left: 0px !important;
   }
   /****************************************************<C O N T A C T>*********************************************************/
   header{
