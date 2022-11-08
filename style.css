@@ -810,7 +810,7 @@ html, body{
   }
   .serv_benefits{
     max-width: 350px;
-    height: 23px;
+    min-height: 23px;
     text-align: left;
     font: normal normal bold 16px/32px Poppins;
     letter-spacing: 0px;
@@ -893,8 +893,8 @@ html, body{
     letter-spacing: 0px;
   }
   .serv_get2{
-    width: 677px;
-    height: 50px;
+    max-width: 677px;
+    min-height: 50px;
     text-align: left;
     font: normal normal bold 33px/42px Poppins;
     letter-spacing: 0px;
@@ -1621,7 +1621,7 @@ html, body{
   }
   .serv_benefits{
     max-width: 350px;
-    height: 23px;
+    min-height: 23px;
     text-align: left;
     font: normal normal bold 16px/32px Poppins;
     letter-spacing: 0px;
@@ -1703,8 +1703,8 @@ html, body{
     letter-spacing: 0px;
   }
   .serv_get2{
-    width: 677px;
-    height: 50px;
+    max-width: 677px;
+    min-height: 50px;
     text-align: left;
     font: normal normal bold 33px/42px Poppins;
     letter-spacing: 0px;
@@ -2584,7 +2584,7 @@ html, body{
   }
   .serv_benefits{
     max-width: 350px;
-    height: 23px;
+    min-height: 23px;
     text-align: left;
     font: normal normal bold 16px/32px Poppins;
     letter-spacing: 0px;
@@ -3895,7 +3895,7 @@ header{
   }
   .serv_benefits{
     max-width: 350px;
-    height: 23px;
+    min-height: 23px;
     text-align: left;
     font: normal normal bold 16px/32px Poppins;
     letter-spacing: 0px;
@@ -4982,7 +4982,7 @@ header{
     width: 100%;
     min-width: 100px;
     max-width: 665px;
-    height: 23px;
+    min-height: 23px;
     text-align: left;
     font: normal normal bold 16px/32px Poppins;
     letter-spacing: 0px;
@@ -5068,10 +5068,8 @@ header{
     letter-spacing: 0px;
   }
   .serv_get2{
-    width: 100%;
     max-width: 677px;
-    height: 100%;
-    max-height: 100px;
+    min-height: 100px;
     text-align: left;
     font: normal normal bold 33px/42px Poppins;
     letter-spacing: 0px;
