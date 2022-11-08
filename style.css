@@ -772,7 +772,7 @@ html, body{
   }
   .serv_meds{
     width: 10rem;
-    height: 8rem;
+    min-height: 8rem;
   }
   .serve_icon{
     max-width: 50px;
@@ -3857,7 +3857,7 @@ header{
   }
   .serv_meds{
     max-width: 6rem;
-    min-height: 1rem;
+    min-height: 10rem;
   }
   .serve_icon{
     max-width: 50px;
