@@ -165,7 +165,7 @@ html, body{
     top: 263px;
     left: 128px;
     max-width: 400px;
-    height: 37px;
+    min-height: 10px;
     text-align: left;
     font: normal normal bold 27px/17px Poppins;
     letter-spacing: 0px;
@@ -2020,7 +2020,7 @@ html, body{
     max-width: 300px !important;
     height: 100% !important;
     min-height: 100px !important;
-    max-height: 300px !important;
+    max-height: 350px !important;
   }
   .home_circ_arr{
     padding-top: 5px !important;
@@ -2050,12 +2050,12 @@ html, body{
   }
   .home_third_par{
     width: 182px;
-  height: 150px;
-  text-align: left;
-  font: normal normal normal 12px/16px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
-  opacity: 1;
+    height: 150px;
+    text-align: left;
+    font: normal normal normal 12px/16px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+    opacity: 1;
   }
   
   /****************************************************<A B O U T>*********************************************************/
@@ -3368,12 +3368,13 @@ header{
 
   }
   .home_Sunshine{
-    max-width: 245px;
-    min-height: 25px;
+    max-width: 300px;
+    min-height: 5px !important;
     text-align: left;
     font: normal normal bold 18px/17px Poppins;
     letter-spacing: 0px;
     color: #2FB1CF;
+    margin-bottom: 0rem !important;
   }
   .home_Carpet{
     max-width: 275px;
@@ -3601,6 +3602,13 @@ header{
   .home_circ_arr2{
     margin-top: -1rem;
     padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: #057690 !important;
+  }
+  .home_circ_arr3{
+    text-align: center;
+    padding: 10px 15px 15px 12px;
     border-radius: 50%;
     border: none;
     background-color: #057690 !important;
