@@ -1197,7 +1197,7 @@ html, body{
   .ab_two_par2{
     width: 100%;
     min-width: 426px;
-    height: 550px;
+    min-height: 50px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
@@ -1511,8 +1511,8 @@ html, body{
     padding-right: 0px !important;
   }
   .no_padding_x2{
-    padding-left: 1% !important;
-    padding-right: 1% !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
   /*marg*/
 @media (max-width: 1024px){
@@ -2134,7 +2134,7 @@ html, body{
     width: 100%;
     min-width: 100px;
     max-width: 426px;
-    height: 550px;
+    min-height: 50px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
@@ -2457,149 +2457,149 @@ html, body{
   padding: 0 !important;
   margin: 0 !important;
   }
-.logo{
-  display: none;
-}
-.logo2{
-  padding: 2rem;
-  padding-left: 7rem;
-  padding-right: 7rem;
-  display: inline-block;
-  align-items: baseline;
-  width: 500px;
-  height: 150px;
-  background: #02050B 0% 0% no-repeat padding-box;
-}
-.try{
-  display: none;
-}
-.upper_nav{
-  background-color: #03060C;
-  height: 60px;
-  color: #FFFFFF;
-}
-.lower_nav{
-  background-color: #057690;
-  height: 97px;
-}
-.lower_nav ul li{
-  margin: 100px;
-}
-.lower_nav ul li{
-  font-size: 14px;
-}
-.no_bullet{
-  list-style-type: none;
-}
-.nav_font{
-  font: normal normal normal 14px/57px Poppins;
-  letter-spacing: 0px;
-  color: #9DEBFE;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.nav_font:hover{
-  color: #EFED70;
-}
-/****************************************************<H O M E>*********************************************************/
-/*Fourth*/
-.home_bg4{
-  background: #ECFBFF 0% 0% no-repeat padding-box;
-}
-.home_Fourth_head{
-  max-width: 350px;
-  min-height: 63px;
-  text-align: center;
-  font: normal normal bold 45px/47px Poppins;
-  letter-spacing: 0px;
-  color: #000000;
-}
-.home_Fourth_par{
-  max-width: 1044px;
-  min-height: 143px;
-  text-align: left;
-  font: normal normal normal 16px/24px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
-  opacity: 1;
-}
-.home_Carousel_card{
-  max-width: 400px;
-  min-height: 400px;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px #00000029;
-  border-radius: 5px;
-  opacity: 0.92;
-}
-.home_circ_corn{
-  max-width: 153px;
-  min-height: 153px;
-  clip-path: circle(48.2% at 35% 27%);
-  background: #EFED70;
-  
-}
-.home_Car_title{
-  max-width: 400px;
-  min-height: 30px;
-  text-align: left;
-  font: normal normal bold 18px/22px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
-  opacity: 1;
-}
-.home_Car_par{
-  max-width: 350px;
-  min-height: 119px;
-  text-align: left;
-  font: normal normal normal 16px/24px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
-  opacity: 1;
-}
-.home_Car_par2{
-  margin-top: -1rem;
-  max-width: 284px;
-  height: 119px;
-  text-align: left;
-  font: normal normal normal 16px/24px Poppins;
-  letter-spacing: 0px;
-  color: #00333E;
-  opacity: 1;
-}
-.home_img_icon{
-  min-height: 3rem;
-  max-width: 3rem;
-}
-.home_fourth_height{
-  margin-bottom: -5rem !important;
-}
-.home_seventh_head{
-  display: flex;
-  justify-content: flex-start;
-  width: 253px;
-  min-height: 20px;
-  margin-left: 0rem;
-  padding-bottom: 0px;
-  font: normal normal bold 55px/22px Poppins;
-  letter-spacing: 0px;
-  color: #FFFFFF;
-  opacity: 1;
-}
-.home_bg_pic { 
-  top: 150px;
-  left: 0px;
-  background: #B0BAC8 0% 0% no-repeat padding-box;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  opacity: 1;
-  height: 100%;
-  min-height: 620px;
-}
-.card-title{
-  margin-bottom: 0px !important;
-}
+  .logo{
+    display: none;
+  }
+  .logo2{
+    padding: 2rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    display: inline-block;
+    align-items: baseline;
+    width: 500px;
+    height: 150px;
+    background: #02050B 0% 0% no-repeat padding-box;
+  }
+  .try{
+    display: none;
+  }
+  .upper_nav{
+    background-color: #03060C;
+    height: 60px;
+    color: #FFFFFF;
+  }
+  .lower_nav{
+    background-color: #057690;
+    height: 97px;
+  }
+  .lower_nav ul li{
+    margin: 100px;
+  }
+  .lower_nav ul li{
+    font-size: 14px;
+  }
+  .no_bullet{
+    list-style-type: none;
+  }
+  .nav_font{
+    font: normal normal normal 14px/57px Poppins;
+    letter-spacing: 0px;
+    color: #9DEBFE;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .nav_font:hover{
+    color: #EFED70;
+  }
+  /****************************************************<H O M E>*********************************************************/
+  /*Fourth*/
+  .home_bg4{
+    background: #ECFBFF 0% 0% no-repeat padding-box;
+  }
+  .home_Fourth_head{
+    max-width: 350px;
+    min-height: 63px;
+    text-align: center;
+    font: normal normal bold 45px/47px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .home_Fourth_par{
+    max-width: 1044px;
+    min-height: 143px;
+    text-align: left;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+    opacity: 1;
+  }
+  .home_Carousel_card{
+    max-width: 400px;
+    min-height: 400px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    opacity: 0.92;
+  }
+  .home_circ_corn{
+    max-width: 153px;
+    min-height: 153px;
+    clip-path: circle(48.2% at 35% 27%);
+    background: #EFED70;
+    
+  }
+  .home_Car_title{
+    max-width: 400px;
+    min-height: 30px;
+    text-align: left;
+    font: normal normal bold 18px/22px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+    opacity: 1;
+  }
+  .home_Car_par{
+    max-width: 350px;
+    min-height: 119px;
+    text-align: left;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+    opacity: 1;
+  }
+  .home_Car_par2{
+    margin-top: -1rem;
+    max-width: 284px;
+    height: 119px;
+    text-align: left;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
+    color: #00333E;
+    opacity: 1;
+  }
+  .home_img_icon{
+    min-height: 3rem;
+    max-width: 3rem;
+  }
+  .home_fourth_height{
+    margin-bottom: -5rem !important;
+  }
+  .home_seventh_head{
+    display: flex;
+    justify-content: flex-start;
+    width: 253px;
+    min-height: 20px;
+    margin-left: 0rem;
+    padding-bottom: 0px;
+    font: normal normal bold 55px/22px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  .home_bg_pic { 
+    top: 150px;
+    left: 0px;
+    background: #B0BAC8 0% 0% no-repeat padding-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 1;
+    height: 100%;
+    min-height: 620px;
+  }
+  .card-title{
+    margin-bottom: 0px !important;
+  }
   /****************************************************<S E R V I C E S>*********************************************************/
   .servs_head{
     max-width: 600px;
@@ -2974,6 +2974,9 @@ header{
   .padding_top_768{
     padding-top: 5rem !important;
   }
+  .padding_top_768x2{
+    padding-top: 5rem !important;
+  }
   .ab_marg_top{
     margin-top: 10rem;
   }
@@ -3036,7 +3039,7 @@ header{
   }
   .ab_two_par2{
     max-width: 526px;
-    min-height: 287px;
+    min-height: 50px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
@@ -3172,116 +3175,182 @@ header{
   .ab_marg_top_blue{
     margin-top: 5rem;
   }
-.cont_all{
+  .cont_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/****************************************************<New Services>*********************************************************/
+.NV_par{
+  max-width: 640px;
+  min-height: 164px;
+  text-align: left;
+  font: normal normal bold 29px/31px Poppins;
+  letter-spacing: 0px;
+  color: #00333E;
+}
+.NV_par2{
+  max-width: 640px;
+  min-height: 191px;
+  text-align: left;
+  font: normal normal normal 16px/24px Poppins;
+  letter-spacing: 0px;
+  color: #00333E;
+}
+/*cards*/
+.NV_img{
+  max-width: 650px;
+  min-height: 187px;
+}
+.NV_card_size{
+  max-width: 650px;
+  min-height: 520px;
+  border: transparent !important;
+}
+.NV_title{
+  max-width: 300px;
+  min-height: 25px;
+  text-align: left;
+  font: normal normal bold 18px/21px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.NV_car_par{
+  max-width: 700px;
+  min-height: 200px;
+  text-align: left;
+  font: normal normal normal 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #00333E;
+}
+.NV_card_flex_button{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: end;
 }
-/*last*/
-.almost_calltwo{
-  width: 100%;
-  max-width: 600px;
-  height: 100%;
-  min-height: 100px;
+.NV_circ_arr{
+  margin-top: -1rem;
   text-align: center;
-  font: normal normal bold 29px/35px Poppins;
-  letter-spacing: 0px;
-  color: #000D10;
+  padding: 11px 14px 15px 13px;
+  border-radius: 50%;
+  border: none;
+  background-color: #057690 !important;
 }
-/*footer*/
-.foot_div_bord{
-  border-right: none;
+.card{
+  background-color: #DEF3F9 !important;
 }
-.bgfooter{
-  min-height: 136px;
-  background: #192331 0% 0% no-repeat padding-box;
+.no_padding_x{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
-.foot_head{
-  max-width: 156px;
-  min-height: 10px;
-  text-align: left;
-  font: normal normal bold 18px/22px Poppins;
-  letter-spacing: 0px;
-  color: #7E91AB;
+.no_padding_x2{
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+  /*last*/
+  .almost_calltwo{
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    min-height: 100px;
+    text-align: center;
+    font: normal normal bold 29px/35px Poppins;
+    letter-spacing: 0px;
+    color: #000D10;
+  }
+  /*footer*/
+  .foot_div_bord{
+    border-right: none;
+  }
+  .bgfooter{
+    min-height: 136px;
+    background: #192331 0% 0% no-repeat padding-box;
+  }
+  .foot_head{
+    max-width: 156px;
+    min-height: 10px;
+    text-align: left;
+    font: normal normal bold 18px/22px Poppins;
+    letter-spacing: 0px;
+    color: #7E91AB;
 
-}
-.foot_but{
-  max-width: 150px;
-  min-height: 5px;
-  text-align: left;
-  font: normal normal normal 12px/27px Poppins;
-  letter-spacing: 0px;
-  color: #D0DEF0;
-  margin-bottom: 0px !important;
-}
-.foot_but:hover{
-  color: #EFED70;
-}
-.foot_marg2{
-  padding-bottom: 5rem !important;
-}
-.foot_div_bord_bot{
-  border-bottom: 1px solid #5A6B82;
-}
-.foot_Name{
-  width: 100%;
-  max-width: 310px;
-  min-height: 39px;
-  color: #D0DEF0;
-  background: #334051 0% 0% no-repeat padding-box;
-  box-shadow: 0px 2px 3px #00000012;
-  border-radius: 5px;
-  border: none;
-}
-.foot_mail{
-  max-width: 150px;
-  min-height: 39px;
-  color: #D0DEF0;
-  border: none;
-  background: #334051 0% 0% no-repeat padding-box;
-  box-shadow: 0px 2px 3px #00000012;
-  border-radius: 5px;
-}
-.foot_message{
-  color: #D0DEF0;
-  border: none;
-  width: 100%;
-  max-width: 310px;
-  min-height: 80px;
-  background: #334051 0% 0% no-repeat padding-box;
-  box-shadow: 0px 2px 3px #00000012;
-  border-radius: 5px;
-}
-.foot_submit{
-  color: white;
-  border: none;
-  width: 100%;
-  font-weight: 700;
-  max-width: 310px;
-  min-height: 51px;
-  background: #FF3400 0% 0% no-repeat padding-box;
-  border-radius: 5px;
-}
-.footer_img{
-  max-width: 159px;
-  min-height: 67px;
-}
-.footer_img1{
-  max-width: 91px;
-  min-height: 60px;
-}
-.foot_final_par{
-  margin-bottom: 0px !important;
-  max-width: 400px;
-  min-height: 5px;
-  text-align: left;
-  font: normal normal normal 12px/42px Poppins;
-  letter-spacing: 0px;
-  color: #7E91AB;
-}
-.foot_align_1st{
-  margin-left: 1rem !important;
-}
+  }
+  .foot_but{
+    max-width: 150px;
+    min-height: 5px;
+    text-align: left;
+    font: normal normal normal 12px/27px Poppins;
+    letter-spacing: 0px;
+    color: #D0DEF0;
+    margin-bottom: 0px !important;
+  }
+  .foot_but:hover{
+    color: #EFED70;
+  }
+  .foot_marg2{
+    padding-bottom: 5rem !important;
+  }
+  .foot_div_bord_bot{
+    border-bottom: 1px solid #5A6B82;
+  }
+  .foot_Name{
+    width: 100%;
+    max-width: 310px;
+    min-height: 39px;
+    color: #D0DEF0;
+    background: #334051 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 3px #00000012;
+    border-radius: 5px;
+    border: none;
+  }
+  .foot_mail{
+    max-width: 150px;
+    min-height: 39px;
+    color: #D0DEF0;
+    border: none;
+    background: #334051 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 3px #00000012;
+    border-radius: 5px;
+  }
+  .foot_message{
+    color: #D0DEF0;
+    border: none;
+    width: 100%;
+    max-width: 310px;
+    min-height: 80px;
+    background: #334051 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 3px #00000012;
+    border-radius: 5px;
+  }
+  .foot_submit{
+    color: white;
+    border: none;
+    width: 100%;
+    font-weight: 700;
+    max-width: 310px;
+    min-height: 51px;
+    background: #FF3400 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+  }
+  .footer_img{
+    max-width: 159px;
+    min-height: 67px;
+  }
+  .footer_img1{
+    max-width: 91px;
+    min-height: 60px;
+  }
+  .foot_final_par{
+    margin-bottom: 0px !important;
+    max-width: 400px;
+    min-height: 5px;
+    text-align: left;
+    font: normal normal normal 12px/42px Poppins;
+    letter-spacing: 0px;
+    color: #7E91AB;
+  }
+  .foot_align_1st{
+    margin-left: 1rem !important;
+  }
 }
 /*Phone*/
 @media (max-width: 425px){
@@ -3337,6 +3406,13 @@ header{
   }
   .padd_gen_left{
     padding-left: 0rem!important;
+  }
+  .padding_425{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .padding_top_768x2{
+    padding-top: 0rem !important;
   }
   /****************************************************<H O M E>*********************************************************/
   .nopadding {
@@ -4404,6 +4480,7 @@ header{
     height: 100%;
     max-width: 200px;
     max-height: 130px;
+    margin-left: -53px;
   }
   /*2nd*/
   .ab_height{
@@ -4421,8 +4498,7 @@ header{
     width: 100%;
     min-width: 100px;
     max-width: 1210px;
-    height: 100%;
-    max-height: 900px;
+    min-height: 100px;
     background: #ECFBFF 0% 0% no-repeat padding-box;
     opacity: 1;
   }
@@ -4442,13 +4518,13 @@ header{
     width: 100%;
     min-width: 100px;
     max-width: 370px;
-    min-height: 450px;
+    min-height: 50px;
     text-align: left;
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
     color: #00333E;
     opacity: 1;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: 0.75rem;
 
   }
@@ -5309,8 +5385,7 @@ header{
     width: 100%;
     min-width: 100px;
     max-width: 1210px;
-    height: 100%;
-    max-height: 1000px;
+    min-height: 100px;
     background: #ECFBFF 0% 0% no-repeat padding-box;
     opacity: 1;
   }
