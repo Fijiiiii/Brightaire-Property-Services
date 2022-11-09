@@ -3279,6 +3279,9 @@ header{
   letter-spacing: 0px;
   color: #7E91AB;
 }
+.foot_align_1st{
+  margin-left: 1rem !important;
+}
 }
 /*Phone*/
 @media (max-width: 425px){
