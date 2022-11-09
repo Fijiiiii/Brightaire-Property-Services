@@ -2265,8 +2265,112 @@ html, body{
     margin-top: 5rem;
   }
 }
+@media (max-width: 991px){
+  .display_991{
+    display: flex;
+  }
+  .display_none_991{
+    display: none;
+  }
+  /*nav-bar*/
+  .nav_bg{
+    background-color: #057690 !important;
+  }
+  .logo{
+    top: -46px;
+    position:absolute;
+    z-index: 1;
+    max-width: 230px;
+    min-height: 10px !important;
+    background: 0% 0% no-repeat padding-box;
+    background: #02050B 0% 0% no-repeat padding-box;
+    padding: 20px;
+  }
+  .logo2{
+    max-width: 230px;
+    min-height: 10px !important;
+    background: 0% 0% no-repeat padding-box;
+    background: #02050B 0% 0% no-repeat padding-box;
+    padding: 20px;
+  }
+  .try{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    z-index: 1;
+    top: 0px;
+    left: 128px;
+    width: 276px;
+    height: 130px;
+    background: #02050B 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .upper_nav_relative{
+    position: relative;
+    z-index: 1;
+  }
+  .nav_end_marg{
+    margin-right: 0rem;
+  }
+  .upper_nav{
+    background-color: #03060C;
+    height: 57px;
+    color: #FFFFFF;
+  }
+  .lower_nav{
+    background-color: #057690;
+    height: 100%;
+    max-height: 97px;
+  }
+  .lower_nav ul li{
+    margin: 100px;
+  }
+  .lower_nav ul li{
+    font-size: 14px;
+  }
+  .no_bullet{
+    list-style-type: none;
+  }
+  .nav_font{
+    font: normal normal normal 14px/57px Poppins !important;
+    letter-spacing: 0px;
+    color: #9DEBFE !important;
+    text-transform: uppercase !important;
+    text-decoration: none;
+  }
+  .nav_font:hover{
+    color: #EFED70 !important;
+  }
+  .nav_font:visited {
+    background-color: #aaa;
+  }
+  .DD{
+    font: normal normal normal 14px/57px Poppins !important;
+    letter-spacing: 0px;
+    color: #9DEBFE !important;
+    text-transform: uppercase !important;
+    text-decoration: none;
+  }
+  .dropdowns{
+    display: none;
+    border-top: 3px solid #EFED70 !important;
+    background: #00333E 0% 0% no-repeat padding-box !important;
+    width: 100%;
+    min-width: 280px !important;
+    height: 100% !important;
+    min-height: 420px !important;
+  }
+}
 /*Tablet*/
 @media (max-width: 768px){
+  .logo2{
+    max-width: 300px !important;
+    min-height: 10px !important;
+    background: 0% 0% no-repeat padding-box;
+    background: #02050B 0% 0% no-repeat padding-box;
+    padding: 20px !important;
+  }
   /*display*/
   .flex_column_768{
     flex-direction: column;
