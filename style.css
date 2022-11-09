@@ -64,7 +64,7 @@ html, body{
     z-index: 1;
   }
   .nav_end_marg{
-    margin-right: 0rem;
+    margin-right: 0rem !important;
   }
   .upper_nav{
     background-color: #03060C;
@@ -2311,7 +2311,7 @@ html, body{
     z-index: 1;
   }
   .nav_end_marg{
-    margin-right: 0rem;
+    margin-right: 0rem !important;
   }
   .upper_nav{
     background-color: #03060C;
